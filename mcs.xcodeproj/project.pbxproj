@@ -1,0 +1,2222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0026622400173D0056FFA5 /* McsTextInputControllerSymptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0026612400173D0056FFA5 /* McsTextInputControllerSymptom.swift */; };
+		0A0026632400173D0056FFA5 /* McsTextInputControllerSymptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0026612400173D0056FFA5 /* McsTextInputControllerSymptom.swift */; };
+		0A074B3123FF841E004A77F2 /* MPBookingPackageTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A074B3023FF841E004A77F2 /* MPBookingPackageTypeViewController.swift */; };
+		0A08342823F6E560002155D9 /* MPAllergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08342723F6E560002155D9 /* MPAllergyViewController.swift */; };
+		0A08342E23F6EEE1002155D9 /* McsTextInputControllerDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08342D23F6EEE1002155D9 /* McsTextInputControllerDate.swift */; };
+		0A08342F23F6EEE1002155D9 /* McsTextInputControllerDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08342D23F6EEE1002155D9 /* McsTextInputControllerDate.swift */; };
+		0A08343123F6EF3E002155D9 /* McsTextInputControllerNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08343023F6EF3E002155D9 /* McsTextInputControllerNote.swift */; };
+		0A08343223F6EF3E002155D9 /* McsTextInputControllerNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08343023F6EF3E002155D9 /* McsTextInputControllerNote.swift */; };
+		0A08343423F6F261002155D9 /* MPSurgeryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08343323F6F261002155D9 /* MPSurgeryViewController.swift */; };
+		0A08343723F6F58F002155D9 /* McsTextInputControllerMonthYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08343623F6F58F002155D9 /* McsTextInputControllerMonthYear.swift */; };
+		0A08343823F6F58F002155D9 /* McsTextInputControllerMonthYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08343623F6F58F002155D9 /* McsTextInputControllerMonthYear.swift */; };
+		0A0A724A217C2C690079ABFA /* MDPackageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A7247217C2C680079ABFA /* MDPackageCell.xib */; };
+		0A0A724B217C2C690079ABFA /* MDPackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A7249217C2C680079ABFA /* MDPackageCell.swift */; };
+		0A0A8256213D471100880DAA /* MDClinicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A8254213D471100880DAA /* MDClinicViewController.swift */; };
+		0A0A825B213D76F100880DAA /* MDDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A825A213D76F000880DAA /* MDDoctorViewController.swift */; };
+		0A0E5FE8241A7CFD00BDC632 /* MPModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E5FE7241A7CFD00BDC632 /* MPModelExtension.swift */; };
+		0A248E66241137B00034CCEA /* MDDoctorInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A248E65241137B00034CCEA /* MDDoctorInfoCell.swift */; };
+		0A248E69241138A50034CCEA /* MPCertificateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A248E67241138970034CCEA /* MPCertificateCell.swift */; };
+		0A2B8B882137E02D00BA2826 /* MDScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B8B872137E02D00BA2826 /* MDScheduleViewController.swift */; };
+		0A347AE425E8045400964345 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A347AE625E8045400964345 /* InfoPlist.strings */; };
+		0A347AEA25E804BE00964345 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A347AEC25E804BE00964345 /* InfoPlist.strings */; };
+		0A368167228AF76900DD20CA /* localization_vi.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A368164228AF76900DD20CA /* localization_vi.json */; };
+		0A368168228AF76900DD20CA /* localization_vi.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A368164228AF76900DD20CA /* localization_vi.json */; };
+		0A36816D228AF76900DD20CA /* localization_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A368166228AF76900DD20CA /* localization_en.json */; };
+		0A36816E228AF76900DD20CA /* localization_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A368166228AF76900DD20CA /* localization_en.json */; };
+		0A36AF1B21B76D9300EFE956 /* UIImageView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36AF1A21B76D9200EFE956 /* UIImageView_Extension.swift */; };
+		0A36AF1C21B76D9300EFE956 /* UIImageView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36AF1A21B76D9200EFE956 /* UIImageView_Extension.swift */; };
+		0A37024323D41B26005F89A6 /* McsTextInputControllerEmailPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A37024223D41B26005F89A6 /* McsTextInputControllerEmailPhone.swift */; };
+		0A37024423D41B26005F89A6 /* McsTextInputControllerEmailPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A37024223D41B26005F89A6 /* McsTextInputControllerEmailPhone.swift */; };
+		0A37024623D424CE005F89A6 /* String_PhoneExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A37024523D424CE005F89A6 /* String_PhoneExtension.swift */; };
+		0A37024723D424CE005F89A6 /* String_PhoneExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A37024523D424CE005F89A6 /* String_PhoneExtension.swift */; };
+		0A39996F23E2C48400F2E7A9 /* McsTextInputControllerAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39996E23E2C48400F2E7A9 /* McsTextInputControllerAddress.swift */; };
+		0A39997023E2C48400F2E7A9 /* McsTextInputControllerAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39996E23E2C48400F2E7A9 /* McsTextInputControllerAddress.swift */; };
+		0A39997223E2C6FD00F2E7A9 /* McsTextInputControllerCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39997123E2C6FD00F2E7A9 /* McsTextInputControllerCity.swift */; };
+		0A39997323E2C6FD00F2E7A9 /* McsTextInputControllerCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39997123E2C6FD00F2E7A9 /* McsTextInputControllerCity.swift */; };
+		0A39997523E2C70600F2E7A9 /* McsTextInputControllerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39997423E2C70600F2E7A9 /* McsTextInputControllerState.swift */; };
+		0A39997623E2C70600F2E7A9 /* McsTextInputControllerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39997423E2C70600F2E7A9 /* McsTextInputControllerState.swift */; };
+		0A3F113F23F80C19001AFF84 /* McsPatientListSpecialtyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F113E23F80C19001AFF84 /* McsPatientListSpecialtyApi.swift */; };
+		0A41E40823F2F02100F4A209 /* McsPatientPartialUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41E40623F2F02100F4A209 /* McsPatientPartialUpdateApi.swift */; };
+		0A41E40A23F2F02100F4A209 /* McsPatientUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41E40723F2F02100F4A209 /* McsPatientUpdateApi.swift */; };
+		0A47096B23E86E85004FA37B /* ModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A47096A23E86E85004FA37B /* ModelExtension.swift */; };
+		0A47096C23E86E85004FA37B /* ModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A47096A23E86E85004FA37B /* ModelExtension.swift */; };
+		0A47571E213A427200010049 /* MPBookingSpecialtyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A47571C213A427100010049 /* MPBookingSpecialtyViewController.swift */; };
+		0A4E601E23D356BE00BA6454 /* McsAccountLoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E601D23D356BE00BA6454 /* McsAccountLoginApi.swift */; };
+		0A4E601F23D356BE00BA6454 /* McsAccountLoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E601D23D356BE00BA6454 /* McsAccountLoginApi.swift */; };
+		0A522DAF21B1900300B2E9C1 /* McsImagePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A522DAE21B1900300B2E9C1 /* McsImagePresentViewController.swift */; };
+		0A522DB021B1900300B2E9C1 /* McsImagePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A522DAE21B1900300B2E9C1 /* McsImagePresentViewController.swift */; };
+		0A5C61C9229E9F4100978955 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5C61C8229E9F4100978955 /* Account.storyboard */; };
+		0A5C61DD229EA5C200978955 /* MPActivateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C61CF229EA5C200978955 /* MPActivateRequestViewController.swift */; };
+		0A5C61E0229EA5C200978955 /* MPUpdateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C61D2229EA5C200978955 /* MPUpdateAccountViewController.swift */; };
+		0A5C61E1229EA5C200978955 /* MPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C61D3229EA5C200978955 /* MPLoginViewController.swift */; };
+		0A5C61E4229EA5C200978955 /* MPRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C61D6229EA5C200978955 /* MPRegisterViewController.swift */; };
+		0A5C61E7229EA5C200978955 /* MPUpdatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C61D9229EA5C200978955 /* MPUpdatePasswordViewController.swift */; };
+		0A5C61E8229EA5C200978955 /* MPResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C61DA229EA5C200978955 /* MPResetPasswordViewController.swift */; };
+		0A5C61E9229EA5C200978955 /* MPResetPasswordRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C61DB229EA5C200978955 /* MPResetPasswordRequestViewController.swift */; };
+		0A5C61EA229EA5C200978955 /* MPActivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C61DC229EA5C200978955 /* MPActivateViewController.swift */; };
+		0A5C61EE229EA7F600978955 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5C61ED229EA7F600978955 /* Account.storyboard */; };
+		0A5EE77B241BFAB800B556A2 /* MDPrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5EE77A241BFAB700B556A2 /* MDPrescriptionViewController.swift */; };
+		0A607AA323E048AC0057F620 /* MPCreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A607AA223E048AC0057F620 /* MPCreateAccountViewController.swift */; };
+		0A621E7D2417FADD00FE7CCD /* MDHistoryAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A621E7C2417FADD00FE7CCD /* MDHistoryAppointmentViewController.swift */; };
+		0A6DB8A6240B852800951430 /* McsDoctorClinicInfoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8588623CAE1A90052E8AC /* McsDoctorClinicInfoApi.swift */; };
+		0A6DB8A9240B929200951430 /* McsDoctorDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DB8A8240B929200951430 /* McsDoctorDetailApi.swift */; };
+		0A6DB8AA240B929200951430 /* McsDoctorDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DB8A8240B929200951430 /* McsDoctorDetailApi.swift */; };
+		0A6DB8AD240BB2A900951430 /* MDDoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DB8AB240BB2A800951430 /* MDDoctorCell.swift */; };
+		0A6DB8AE240BB2A900951430 /* MDDoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DB8AC240BB2A900951430 /* MDDoctorCell.xib */; };
+		0A73B09F21AAC1AA006A3F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73AFC221AAC1A9006A3F15 /* AppDelegate.swift */; };
+		0A73B0A021AAC1AA006A3F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73AFC221AAC1A9006A3F15 /* AppDelegate.swift */; };
+		0A73B0A221AAC1AA006A3F15 /* Common.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A73AFC421AAC1A9006A3F15 /* Common.xcassets */; };
+		0A73B0A321AAC1AA006A3F15 /* Common.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A73AFC421AAC1A9006A3F15 /* Common.xcassets */; };
+		0A73B0B721AAC1AB006A3F15 /* McsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73AFCE21AAC1AA006A3F15 /* McsConstant.swift */; };
+		0A73B0B821AAC1AB006A3F15 /* McsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73AFCE21AAC1AA006A3F15 /* McsConstant.swift */; };
+		0A73B0BA21AAC1AB006A3F15 /* McsBaseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73AFD021AAC1AA006A3F15 /* McsBaseDatabase.swift */; };
+		0A73B0BB21AAC1AB006A3F15 /* McsBaseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73AFD021AAC1AA006A3F15 /* McsBaseDatabase.swift */; };
+		0A73B15921AAC1AB006A3F15 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B00C21AAC1AA006A3F15 /* Other.storyboard */; };
+		0A73B15A21AAC1AB006A3F15 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B00C21AAC1AA006A3F15 /* Other.storyboard */; };
+		0A73B16521AAC1AB006A3F15 /* Date_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01221AAC1AA006A3F15 /* Date_Extension.swift */; };
+		0A73B16621AAC1AB006A3F15 /* Date_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01221AAC1AA006A3F15 /* Date_Extension.swift */; };
+		0A73B16821AAC1AB006A3F15 /* McsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01321AAC1AA006A3F15 /* McsUtility.swift */; };
+		0A73B16921AAC1AB006A3F15 /* McsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01321AAC1AA006A3F15 /* McsUtility.swift */; };
+		0A73B16B21AAC1AB006A3F15 /* ToString_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01421AAC1AA006A3F15 /* ToString_Extension.swift */; };
+		0A73B16C21AAC1AB006A3F15 /* ToString_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01421AAC1AA006A3F15 /* ToString_Extension.swift */; };
+		0A73B17121AAC1AB006A3F15 /* MPPatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01821AAC1AA006A3F15 /* MPPatientCell.swift */; };
+		0A73B17421AAC1AB006A3F15 /* MPPatientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B01921AAC1AA006A3F15 /* MPPatientCell.xib */; };
+		0A73B17821AAC1AB006A3F15 /* MDCertificateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01A21AAC1AA006A3F15 /* MDCertificateCell.swift */; };
+		0A73B17A21AAC1AB006A3F15 /* McsCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01B21AAC1AA006A3F15 /* McsCheckCell.swift */; };
+		0A73B17B21AAC1AB006A3F15 /* McsCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01B21AAC1AA006A3F15 /* McsCheckCell.swift */; };
+		0A73B17D21AAC1AB006A3F15 /* McsCheckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B01C21AAC1AA006A3F15 /* McsCheckCell.xib */; };
+		0A73B17E21AAC1AB006A3F15 /* McsCheckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B01C21AAC1AA006A3F15 /* McsCheckCell.xib */; };
+		0A73B18021AAC1AB006A3F15 /* MPClinicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B01D21AAC1AA006A3F15 /* MPClinicCell.swift */; };
+		0A73B18F21AAC1AB006A3F15 /* McsTextAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02221AAC1AA006A3F15 /* McsTextAddCell.xib */; };
+		0A73B19021AAC1AB006A3F15 /* McsTextAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02221AAC1AA006A3F15 /* McsTextAddCell.xib */; };
+		0A73B19221AAC1AB006A3F15 /* McsTextAddRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02321AAC1AA006A3F15 /* McsTextAddRightCell.xib */; };
+		0A73B19321AAC1AB006A3F15 /* McsTextAddRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02321AAC1AA006A3F15 /* McsTextAddRightCell.xib */; };
+		0A73B19521AAC1AB006A3F15 /* McsTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B02421AAC1AA006A3F15 /* McsTextCell.swift */; };
+		0A73B19621AAC1AB006A3F15 /* McsTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B02421AAC1AA006A3F15 /* McsTextCell.swift */; };
+		0A73B19821AAC1AB006A3F15 /* McsTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02521AAC1AA006A3F15 /* McsTextCell.xib */; };
+		0A73B19921AAC1AB006A3F15 /* McsTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02521AAC1AA006A3F15 /* McsTextCell.xib */; };
+		0A73B19B21AAC1AB006A3F15 /* McsTextDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B02621AAC1AA006A3F15 /* McsTextDetailCell.swift */; };
+		0A73B19C21AAC1AB006A3F15 /* McsTextDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B02621AAC1AA006A3F15 /* McsTextDetailCell.swift */; };
+		0A73B19E21AAC1AB006A3F15 /* McsTextDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02721AAC1AA006A3F15 /* McsTextDetailCell.xib */; };
+		0A73B19F21AAC1AB006A3F15 /* McsTextDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02721AAC1AA006A3F15 /* McsTextDetailCell.xib */; };
+		0A73B1A121AAC1AB006A3F15 /* McsTextDetailRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02821AAC1AA006A3F15 /* McsTextDetailRightCell.xib */; };
+		0A73B1A221AAC1AB006A3F15 /* McsTextDetailRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02821AAC1AA006A3F15 /* McsTextDetailRightCell.xib */; };
+		0A73B1A421AAC1AB006A3F15 /* McsTextEmptyMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02921AAC1AA006A3F15 /* McsTextEmptyMessageCell.xib */; };
+		0A73B1A521AAC1AB006A3F15 /* McsTextEmptyMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A73B02921AAC1AA006A3F15 /* McsTextEmptyMessageCell.xib */; };
+		0A73B1A721AAC1AB006A3F15 /* MPDoctorInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B02A21AAC1AA006A3F15 /* MPDoctorInfoCell.swift */; };
+		0A73B1C221AAC1AB006A3F15 /* McsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03621AAC1AA006A3F15 /* McsNavigationController.swift */; };
+		0A73B1C321AAC1AB006A3F15 /* McsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03621AAC1AA006A3F15 /* McsNavigationController.swift */; };
+		0A73B1CE21AAC1AB006A3F15 /* McsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03A21AAC1AA006A3F15 /* McsTableViewController.swift */; };
+		0A73B1CF21AAC1AB006A3F15 /* McsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03A21AAC1AA006A3F15 /* McsTableViewController.swift */; };
+		0A73B1D121AAC1AB006A3F15 /* McsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03B21AAC1AA006A3F15 /* McsViewController.swift */; };
+		0A73B1D221AAC1AB006A3F15 /* McsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03B21AAC1AA006A3F15 /* McsViewController.swift */; };
+		0A73B1D421AAC1AB006A3F15 /* McsBaseCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03D21AAC1AA006A3F15 /* McsBaseCalendarViewController.swift */; };
+		0A73B1D521AAC1AB006A3F15 /* McsBaseCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03D21AAC1AA006A3F15 /* McsBaseCalendarViewController.swift */; };
+		0A73B1DA21AAC1AC006A3F15 /* McsRefreshAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03F21AAC1AA006A3F15 /* McsRefreshAccountViewController.swift */; };
+		0A73B1DB21AAC1AC006A3F15 /* McsRefreshAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B03F21AAC1AA006A3F15 /* McsRefreshAccountViewController.swift */; };
+		0A73B1DD21AAC1AC006A3F15 /* McsCertificateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B04121AAC1AA006A3F15 /* McsCertificateViewController.swift */; };
+		0A73B1DE21AAC1AC006A3F15 /* McsCertificateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73B04121AAC1AA006A3F15 /* McsCertificateViewController.swift */; };
+		0A75410B212C49B70060A100 /* McsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7540B7212C49B70060A100 /* McsDatabase.swift */; };
+		0A75410C212C49B70060A100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7540B9212C49B70060A100 /* Assets.xcassets */; };
+		0A75410D212C49B70060A100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7540BB212C49B70060A100 /* LaunchScreen.storyboard */; };
+		0A754111212C49B70060A100 /* MDAppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7540C1212C49B70060A100 /* MDAppointmentCell.swift */; };
+		0A754113212C49B70060A100 /* MDAppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7540C3212C49B70060A100 /* MDAppointmentCell.xib */; };
+		0A75414B212C49B70060A100 /* MDSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A754107212C49B70060A100 /* MDSettingViewController.swift */; };
+		0A7542F1212C4A5C0060A100 /* McsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75429B212C4A5B0060A100 /* McsDatabase.swift */; };
+		0A7542F2212C4A5C0060A100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A75429D212C4A5B0060A100 /* Assets.xcassets */; };
+		0A7542F3212C4A5C0060A100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A75429F212C4A5B0060A100 /* LaunchScreen.storyboard */; };
+		0A7542F4212C4A5C0060A100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7542A0212C4A5B0060A100 /* Main.storyboard */; };
+		0A7542F7212C4A5C0060A100 /* MPDoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542A5212C4A5B0060A100 /* MPDoctorCell.swift */; };
+		0A7542F8212C4A5C0060A100 /* MPAppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542A6212C4A5B0060A100 /* MPAppointmentCell.swift */; };
+		0A7542F9212C4A5C0060A100 /* MPDoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7542A7212C4A5B0060A100 /* MPDoctorCell.xib */; };
+		0A7542FB212C4A5C0060A100 /* MPAppointmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7542A9212C4A5B0060A100 /* MPAppointmentCell.xib */; };
+		0A754320212C4A5C0060A100 /* MPAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542D7212C4A5B0060A100 /* MPAppointmentViewController.swift */; };
+		0A754321212C4A5C0060A100 /* MPListAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542D8212C4A5B0060A100 /* MPListAppointmentViewController.swift */; };
+		0A754322212C4A5C0060A100 /* MPBookingDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542DA212C4A5B0060A100 /* MPBookingDoctorViewController.swift */; };
+		0A754323212C4A5C0060A100 /* MPBookingListDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542DB212C4A5B0060A100 /* MPBookingListDoctorViewController.swift */; };
+		0A754324212C4A5C0060A100 /* MPBookingTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542DC212C4A5B0060A100 /* MPBookingTimeViewController.swift */; };
+		0A754325212C4A5C0060A100 /* MPBookingHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542DD212C4A5B0060A100 /* MPBookingHealthViewController.swift */; };
+		0A754326212C4A5C0060A100 /* MPBookingSymptomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542DE212C4A5B0060A100 /* MPBookingSymptomViewController.swift */; };
+		0A754327212C4A5C0060A100 /* MPBookingSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542DF212C4A5B0060A100 /* MPBookingSummaryViewController.swift */; };
+		0A754328212C4A5C0060A100 /* MPHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542E1212C4A5B0060A100 /* MPHealthViewController.swift */; };
+		0A754332212C4A5C0060A100 /* MPSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542ED212C4A5B0060A100 /* MPSettingViewController.swift */; };
+		0A754333212C4A5C0060A100 /* MPMainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7542EF212C4A5B0060A100 /* MPMainTabController.swift */; };
+		0A7A0E5523DDC2E20036D2AE /* McsPatientRegisterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A0E5423DDC2E20036D2AE /* McsPatientRegisterApi.swift */; };
+		0A7A0E5923DDC43D0036D2AE /* ApiAlertExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A0E5823DDC43D0036D2AE /* ApiAlertExtention.swift */; };
+		0A7A0E5A23DDC43D0036D2AE /* ApiAlertExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A0E5823DDC43D0036D2AE /* ApiAlertExtention.swift */; };
+		0A7C678A241F371100D74ADE /* McsSaveApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C6789241F371100D74ADE /* McsSaveApi.swift */; };
+		0A7C678B241F371100D74ADE /* McsSaveApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C6789241F371100D74ADE /* McsSaveApi.swift */; };
+		0A859DC82179DF2900B48F15 /* MDListPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A859DC72179DF2900B48F15 /* MDListPackageViewController.swift */; };
+		0A9A1C7823D34128004BC069 /* McsRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A1C7723D34128004BC069 /* McsRequestApi.swift */; };
+		0A9A1C7923D34128004BC069 /* McsRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A1C7723D34128004BC069 /* McsRequestApi.swift */; };
+		0A9A1C7B23D34132004BC069 /* McsUserRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A1C7A23D34132004BC069 /* McsUserRequestApi.swift */; };
+		0A9A1C7C23D34132004BC069 /* McsUserRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A1C7A23D34132004BC069 /* McsUserRequestApi.swift */; };
+		0A9A1C7F23D34549004BC069 /* McsLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A1C7E23D34549004BC069 /* McsLog.swift */; };
+		0A9A1C8023D34549004BC069 /* McsLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A1C7E23D34549004BC069 /* McsLog.swift */; };
+		0A9A1C8B23D3527E004BC069 /* McsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A1C8A23D3527E004BC069 /* McsEnum.swift */; };
+		0A9A1C8C23D3527E004BC069 /* McsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A1C8A23D3527E004BC069 /* McsEnum.swift */; };
+		0A9DE52C218BEDEF0088F2A0 /* MDHistoryListAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE52B218BEDEF0088F2A0 /* MDHistoryListAppointmentViewController.swift */; };
+		0AA49F4D241806C300AF3AB2 /* McsApnsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA49F4C241806C300AF3AB2 /* McsApnsService.swift */; };
+		0AA49F4E241806C300AF3AB2 /* McsApnsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA49F4C241806C300AF3AB2 /* McsApnsService.swift */; };
+		0AA7D5F423EC5E0E009CFC19 /* McsPatientCreateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7D5F323EC5E0E009CFC19 /* McsPatientCreateApi.swift */; };
+		0AA8DEE42664C3A0004E03C4 /* McsMultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8DEE32664C3A0004E03C4 /* McsMultilineTextField.swift */; };
+		0AA8DEE52664C3A0004E03C4 /* McsMultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8DEE32664C3A0004E03C4 /* McsMultilineTextField.swift */; };
+		0AAE7B3122D247C900F51267 /* McsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE7B3022D247C900F51267 /* McsWebViewController.swift */; };
+		0AAE7B3222D247C900F51267 /* McsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE7B3022D247C900F51267 /* McsWebViewController.swift */; };
+		0AB1929A241BCABE000FA615 /* McsTextInputControllerClearableTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB19299241BCABE000FA615 /* McsTextInputControllerClearableTime.swift */; };
+		0AB1929B241BCABE000FA615 /* McsTextInputControllerClearableTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB19299241BCABE000FA615 /* McsTextInputControllerClearableTime.swift */; };
+		0AB2780E240FF9630065FEB8 /* McsSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2780D240FF9630065FEB8 /* McsSchedule.swift */; };
+		0AB27810240FF9E80065FEB8 /* McsTimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2780F240FF9E80065FEB8 /* McsTimeRange.swift */; };
+		0AB27811240FF9E80065FEB8 /* McsTimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2780F240FF9E80065FEB8 /* McsTimeRange.swift */; };
+		0AB27812240FF9EB0065FEB8 /* McsSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2780D240FF9630065FEB8 /* McsSchedule.swift */; };
+		0AB27814240FFA890065FEB8 /* McsDateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB27813240FFA890065FEB8 /* McsDateRange.swift */; };
+		0AB27815240FFA890065FEB8 /* McsDateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB27813240FFA890065FEB8 /* McsDateRange.swift */; };
+		0AC38BD223E5DA4F00714CD7 /* McsConfigApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BD123E5DA4F00714CD7 /* McsConfigApi.swift */; };
+		0AC38BD323E5DA4F00714CD7 /* McsConfigApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BD123E5DA4F00714CD7 /* McsConfigApi.swift */; };
+		0AC38BD623E5EA4700714CD7 /* McsCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BD423E5EA4700714CD7 /* McsCity.swift */; };
+		0AC38BD723E5EA4700714CD7 /* McsCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BD423E5EA4700714CD7 /* McsCity.swift */; };
+		0AC38BD823E5EA4700714CD7 /* McsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BD523E5EA4700714CD7 /* McsState.swift */; };
+		0AC38BD923E5EA4700714CD7 /* McsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BD523E5EA4700714CD7 /* McsState.swift */; };
+		0AC38BDB23E5EA9000714CD7 /* McsCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BDA23E5EA9000714CD7 /* McsCountry.swift */; };
+		0AC38BDC23E5EA9000714CD7 /* McsCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BDA23E5EA9000714CD7 /* McsCountry.swift */; };
+		0AC38BDF23E5EBBE00714CD7 /* McsSpecialty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BDD23E5EBBE00714CD7 /* McsSpecialty.swift */; };
+		0AC38BE023E5EBBE00714CD7 /* McsSpecialty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC38BDD23E5EBBE00714CD7 /* McsSpecialty.swift */; };
+		0AC45E1B23F055EF00E182A0 /* McsUploadImageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E1A23F055EF00E182A0 /* McsUploadImageApi.swift */; };
+		0AC45E1C23F055EF00E182A0 /* McsUploadImageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E1A23F055EF00E182A0 /* McsUploadImageApi.swift */; };
+		0AC45E1E23F0565600E182A0 /* McsRequestFormApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E1D23F0565600E182A0 /* McsRequestFormApi.swift */; };
+		0AC45E1F23F0565600E182A0 /* McsRequestFormApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC45E1D23F0565600E182A0 /* McsRequestFormApi.swift */; };
+		0AD65C8523DEAECB00772455 /* McsPatientActivateRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD65C8323DEAECB00772455 /* McsPatientActivateRequestApi.swift */; };
+		0AD65C8723DEAECB00772455 /* McsPatientActivateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD65C8423DEAECB00772455 /* McsPatientActivateApi.swift */; };
+		0AD65C8A23DED01600772455 /* McsTextInputControllerCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD65C8923DED01600772455 /* McsTextInputControllerCode.swift */; };
+		0AD65C8B23DED01600772455 /* McsTextInputControllerCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD65C8923DED01600772455 /* McsTextInputControllerCode.swift */; };
+		0AD858FB23CAE1A90052E8AC /* ApiDateExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8581A23CAE1A90052E8AC /* ApiDateExtention.swift */; };
+		0AD858FC23CAE1A90052E8AC /* ApiDateExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8581A23CAE1A90052E8AC /* ApiDateExtention.swift */; };
+		0AD858FD23CAE1A90052E8AC /* ApiTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8581B23CAE1A90052E8AC /* ApiTransformer.swift */; };
+		0AD858FE23CAE1A90052E8AC /* ApiTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8581B23CAE1A90052E8AC /* ApiTransformer.swift */; };
+		0AD8590F23CAE1A90052E8AC /* McsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582823CAE1A90052E8AC /* McsBase.swift */; };
+		0AD8591023CAE1A90052E8AC /* McsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582823CAE1A90052E8AC /* McsBase.swift */; };
+		0AD8591323CAE1A90052E8AC /* McsAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582A23CAE1A90052E8AC /* McsAccount.swift */; };
+		0AD8591423CAE1A90052E8AC /* McsAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582A23CAE1A90052E8AC /* McsAccount.swift */; };
+		0AD8591523CAE1A90052E8AC /* McsMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582B23CAE1A90052E8AC /* McsMappable.swift */; };
+		0AD8591623CAE1A90052E8AC /* McsMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582B23CAE1A90052E8AC /* McsMappable.swift */; };
+		0AD8591723CAE1A90052E8AC /* McsValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582D23CAE1A90052E8AC /* McsValue.swift */; };
+		0AD8591823CAE1A90052E8AC /* McsValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582D23CAE1A90052E8AC /* McsValue.swift */; };
+		0AD8591923CAE1A90052E8AC /* McsAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582E23CAE1A90052E8AC /* McsAddress.swift */; };
+		0AD8591A23CAE1A90052E8AC /* McsAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8582E23CAE1A90052E8AC /* McsAddress.swift */; };
+		0AD8593F23CAE1A90052E8AC /* McsProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584223CAE1A90052E8AC /* McsProfile.swift */; };
+		0AD8594023CAE1A90052E8AC /* McsProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584223CAE1A90052E8AC /* McsProfile.swift */; };
+		0AD8594323CAE1A90052E8AC /* McsSymptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584423CAE1A90052E8AC /* McsSymptom.swift */; };
+		0AD8594423CAE1A90052E8AC /* McsSymptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584423CAE1A90052E8AC /* McsSymptom.swift */; };
+		0AD8594723CAE1A90052E8AC /* McsPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584623CAE1A90052E8AC /* McsPrice.swift */; };
+		0AD8594823CAE1A90052E8AC /* McsPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584623CAE1A90052E8AC /* McsPrice.swift */; };
+		0AD8595123CAE1A90052E8AC /* McsSurgery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584C23CAE1A90052E8AC /* McsSurgery.swift */; };
+		0AD8595223CAE1A90052E8AC /* McsSurgery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584C23CAE1A90052E8AC /* McsSurgery.swift */; };
+		0AD8595523CAE1A90052E8AC /* McsPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584E23CAE1A90052E8AC /* McsPatient.swift */; };
+		0AD8595623CAE1A90052E8AC /* McsPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584E23CAE1A90052E8AC /* McsPatient.swift */; };
+		0AD8595723CAE1A90052E8AC /* McsMedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584F23CAE1A90052E8AC /* McsMedication.swift */; };
+		0AD8595823CAE1A90052E8AC /* McsMedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8584F23CAE1A90052E8AC /* McsMedication.swift */; };
+		0AD8595923CAE1A90052E8AC /* McsAllergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585023CAE1A90052E8AC /* McsAllergy.swift */; };
+		0AD8595A23CAE1A90052E8AC /* McsAllergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585023CAE1A90052E8AC /* McsAllergy.swift */; };
+		0AD8595F23CAE1A90052E8AC /* McsDoctorCert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585423CAE1A90052E8AC /* McsDoctorCert.swift */; };
+		0AD8596023CAE1A90052E8AC /* McsDoctorCert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585423CAE1A90052E8AC /* McsDoctorCert.swift */; };
+		0AD8596123CAE1A90052E8AC /* McsDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585523CAE1A90052E8AC /* McsDoctor.swift */; };
+		0AD8596223CAE1A90052E8AC /* McsDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585523CAE1A90052E8AC /* McsDoctor.swift */; };
+		0AD8596323CAE1A90052E8AC /* McsClinicCert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585623CAE1A90052E8AC /* McsClinicCert.swift */; };
+		0AD8596423CAE1A90052E8AC /* McsClinicCert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585623CAE1A90052E8AC /* McsClinicCert.swift */; };
+		0AD8596523CAE1A90052E8AC /* McsCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585723CAE1A90052E8AC /* McsCertificate.swift */; };
+		0AD8596623CAE1A90052E8AC /* McsCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585723CAE1A90052E8AC /* McsCertificate.swift */; };
+		0AD8596923CAE1A90052E8AC /* McsPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585923CAE1A90052E8AC /* McsPackage.swift */; };
+		0AD8596A23CAE1A90052E8AC /* McsPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585923CAE1A90052E8AC /* McsPackage.swift */; };
+		0AD8596B23CAE1A90052E8AC /* McsWorkingTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585A23CAE1A90052E8AC /* McsWorkingTime.swift */; };
+		0AD8596C23CAE1A90052E8AC /* McsWorkingTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585A23CAE1A90052E8AC /* McsWorkingTime.swift */; };
+		0AD8596D23CAE1A90052E8AC /* McsClinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585B23CAE1A90052E8AC /* McsClinic.swift */; };
+		0AD8596E23CAE1A90052E8AC /* McsClinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8585B23CAE1A90052E8AC /* McsClinic.swift */; };
+		0AD8597523CAE1A90052E8AC /* McsAccountResetPasswordApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8586323CAE1A90052E8AC /* McsAccountResetPasswordApi.swift */; };
+		0AD8597623CAE1A90052E8AC /* McsAccountResetPasswordApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8586323CAE1A90052E8AC /* McsAccountResetPasswordApi.swift */; };
+		0AD8598123CAE1A90052E8AC /* McsAccountResetPasswordRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8586923CAE1A90052E8AC /* McsAccountResetPasswordRequestApi.swift */; };
+		0AD8598223CAE1A90052E8AC /* McsAccountResetPasswordRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8586923CAE1A90052E8AC /* McsAccountResetPasswordRequestApi.swift */; };
+		0AD8598B23CAE1A90052E8AC /* McsAccountDeviceSetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8586E23CAE1A90052E8AC /* McsAccountDeviceSetApi.swift */; };
+		0AD8598C23CAE1A90052E8AC /* McsAccountDeviceSetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8586E23CAE1A90052E8AC /* McsAccountDeviceSetApi.swift */; };
+		0AD859A023CAE1A90052E8AC /* McsDoctorListAppointmentApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8587C23CAE1A90052E8AC /* McsDoctorListAppointmentApi.swift */; };
+		0AD859A423CAE1A90052E8AC /* McsDoctorAppointmentDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8587E23CAE1A90052E8AC /* McsDoctorAppointmentDetailApi.swift */; };
+		0AD859A623CAE1A90052E8AC /* McsDoctorBeginAppointmentApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8587F23CAE1A90052E8AC /* McsDoctorBeginAppointmentApi.swift */; };
+		0AD859A823CAE1A90052E8AC /* McsDoctorFinishAppointmentApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8588023CAE1A90052E8AC /* McsDoctorFinishAppointmentApi.swift */; };
+		0AD859AA23CAE1A90052E8AC /* McsDoctorPackageDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8588223CAE1A90052E8AC /* McsDoctorPackageDetailApi.swift */; };
+		0AD859BE23CAE1A90052E8AC /* McsDoctorClinicDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8588E23CAE1A90052E8AC /* McsDoctorClinicDetailApi.swift */; };
+		0AD859C023CAE1A90052E8AC /* McsDoctorListPackageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8589023CAE1A90052E8AC /* McsDoctorListPackageApi.swift */; };
+		0AD859EF23CAE1A90052E8AC /* McsPatientAppointmentDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858AF23CAE1A90052E8AC /* McsPatientAppointmentDetailApi.swift */; };
+		0AD859F123CAE1A90052E8AC /* McsPatientAppointmentCreateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858B023CAE1A90052E8AC /* McsPatientAppointmentCreateApi.swift */; };
+		0AD859F323CAE1A90052E8AC /* McsPatientCancelAppointmentApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858B123CAE1A90052E8AC /* McsPatientCancelAppointmentApi.swift */; };
+		0AD859F523CAE1A90052E8AC /* McsPatientListAppointmentApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858B223CAE1A90052E8AC /* McsPatientListAppointmentApi.swift */; };
+		0AD859F923CAE1A90052E8AC /* McsPatientListWorkingTimeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858B523CAE1A90052E8AC /* McsPatientListWorkingTimeApi.swift */; };
+		0AD859FB23CAE1A90052E8AC /* McsPatientListDoctorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858B623CAE1A90052E8AC /* McsPatientListDoctorApi.swift */; };
+		0AD859FD23CAE1A90052E8AC /* McsPatientDoctorDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858B723CAE1A90052E8AC /* McsPatientDoctorDetailApi.swift */; };
+		0AD859FF23CAE1A90052E8AC /* McsPatientListBookingTimeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858B823CAE1A90052E8AC /* McsPatientListBookingTimeApi.swift */; };
+		0AD85A0123CAE1A90052E8AC /* McsPatientHealthDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858BA23CAE1A90052E8AC /* McsPatientHealthDetailApi.swift */; };
+		0AD85A0323CAE1A90052E8AC /* McsPatientAllergyCreateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858BC23CAE1A90052E8AC /* McsPatientAllergyCreateApi.swift */; };
+		0AD85A0723CAE1A90052E8AC /* McsPatientAllergyDeleteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858BE23CAE1A90052E8AC /* McsPatientAllergyDeleteApi.swift */; };
+		0AD85A0B23CAE1A90052E8AC /* McsPatientAllergyUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858C023CAE1A90052E8AC /* McsPatientAllergyUpdateApi.swift */; };
+		0AD85A0F23CAE1A90052E8AC /* McsPatientSurgeryDeleteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858C323CAE1A90052E8AC /* McsPatientSurgeryDeleteApi.swift */; };
+		0AD85A1123CAE1A90052E8AC /* McsPatientSurgeryCreateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858C423CAE1A90052E8AC /* McsPatientSurgeryCreateApi.swift */; };
+		0AD85A1523CAE1A90052E8AC /* McsPatientSurgeryUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858C623CAE1A90052E8AC /* McsPatientSurgeryUpdateApi.swift */; };
+		0AD85A1B23CAE1A90052E8AC /* McsPatientMedicationUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858CA23CAE1A90052E8AC /* McsPatientMedicationUpdateApi.swift */; };
+		0AD85A2323CAE1A90052E8AC /* McsPatientDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858CF23CAE1A90052E8AC /* McsPatientDetailApi.swift */; };
+		0AD85A2723CAE1A90052E8AC /* McsAccountUpdatePasswordApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858D123CAE1A90052E8AC /* McsAccountUpdatePasswordApi.swift */; };
+		0AD85A2823CAE1A90052E8AC /* McsAccountUpdatePasswordApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD858D123CAE1A90052E8AC /* McsAccountUpdatePasswordApi.swift */; };
+		0ADD58A02402079A002B5FF1 /* McsAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD589E2402079A002B5FF1 /* McsAppointment.swift */; };
+		0ADD58A12402079A002B5FF1 /* McsAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD589E2402079A002B5FF1 /* McsAppointment.swift */; };
+		0ADD58A22402079A002B5FF1 /* McsAptStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD589F2402079A002B5FF1 /* McsAptStatus.swift */; };
+		0ADD58A32402079A002B5FF1 /* McsAptStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD589F2402079A002B5FF1 /* McsAptStatus.swift */; };
+		0ADDD29623D2268300B76668 /* McsFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDD29523D2268300B76668 /* McsFormViewController.swift */; };
+		0ADDD29723D2268300B76668 /* McsFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDD29523D2268300B76668 /* McsFormViewController.swift */; };
+		0AE399E32410034F00A54CD2 /* McsWorkingDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE399E22410034F00A54CD2 /* McsWorkingDay.swift */; };
+		0AE399E42410034F00A54CD2 /* McsWorkingDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE399E22410034F00A54CD2 /* McsWorkingDay.swift */; };
+		0AEFAB7823DF439200C771FF /* McsTextInputControllerRePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEFAB7723DF439200C771FF /* McsTextInputControllerRePassword.swift */; };
+		0AEFAB7923DF439200C771FF /* McsTextInputControllerRePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEFAB7723DF439200C771FF /* McsTextInputControllerRePassword.swift */; };
+		0AF5C865240FF0C40007CBBE /* MDPackageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5C864240FF0C40007CBBE /* MDPackageDetailViewController.swift */; };
+		0AFC13F12430663F004F7D9C /* McsBackendConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC13F02430663F004F7D9C /* McsBackendConstant.swift */; };
+		0AFC13F22430663F004F7D9C /* McsBackendConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC13F02430663F004F7D9C /* McsBackendConstant.swift */; };
+		0AFC9C872419CFEB00A7AFC7 /* McsTextInputControllerSymptomWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC9C862419CFEB00A7AFC7 /* McsTextInputControllerSymptomWhen.swift */; };
+		0AFC9C882419CFF200A7AFC7 /* McsTextInputControllerSymptomWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC9C862419CFEB00A7AFC7 /* McsTextInputControllerSymptomWhen.swift */; };
+		0AFC9C8A2419D0F500A7AFC7 /* McsDoctorListWorkingTimeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC9C892419D0F500A7AFC7 /* McsDoctorListWorkingTimeApi.swift */; };
+		0AFCB83C23E71547006F682E /* McsAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCB83B23E71547006F682E /* McsAppConfiguration.swift */; };
+		0AFCB83D23E71547006F682E /* McsAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCB83B23E71547006F682E /* McsAppConfiguration.swift */; };
+		0AFCB84123E71C2D006F682E /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCB83E23E71C2D006F682E /* country.json */; };
+		0AFCB84223E71C2D006F682E /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCB83E23E71C2D006F682E /* country.json */; };
+		0AFCB84523E71C2D006F682E /* specialty.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCB84023E71C2D006F682E /* specialty.json */; };
+		0AFCB84623E71C2D006F682E /* specialty.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCB84023E71C2D006F682E /* specialty.json */; };
+		0AFD580524040E83004DAE00 /* McsCreateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD580324040E83004DAE00 /* McsCreateApi.swift */; };
+		0AFD580624040E83004DAE00 /* McsCreateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD580324040E83004DAE00 /* McsCreateApi.swift */; };
+		0AFD580724040E83004DAE00 /* McsDeleteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD580424040E83004DAE00 /* McsDeleteApi.swift */; };
+		0AFD580824040E83004DAE00 /* McsDeleteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD580424040E83004DAE00 /* McsDeleteApi.swift */; };
+		0AFD580A24040E89004DAE00 /* McsUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD580924040E89004DAE00 /* McsUpdateApi.swift */; };
+		0AFD580B24040E89004DAE00 /* McsUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD580924040E89004DAE00 /* McsUpdateApi.swift */; };
+		0AFD580D240413DE004DAE00 /* McsPartialUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD580C240413DD004DAE00 /* McsPartialUpdateApi.swift */; };
+		0AFD580E240413DE004DAE00 /* McsPartialUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD580C240413DD004DAE00 /* McsPartialUpdateApi.swift */; };
+		268155D7F7781A79C5CF02A3 /* Pods_doctor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE412841219C67A878B7F67F /* Pods_doctor.framework */; };
+		85D0FDD5313DDA509970B015 /* Pods_patient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C1E1E0172126295A42CC06 /* Pods_patient.framework */; };
+		8E286CC12410FFB10049B163 /* MDTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E286CBF2410FFB10049B163 /* MDTimeCell.swift */; };
+		8E49277B2411FCDD003221B3 /* MDModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E49277A2411FCDD003221B3 /* MDModelExtension.swift */; };
+		8E57F8592408D5840017DB59 /* MDMainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57F8582408D5840017DB59 /* MDMainTabController.swift */; };
+		8E57F85B2409098D0017DB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E57F85A2409098D0017DB59 /* Main.storyboard */; };
+		8E57F87224090A980017DB59 /* MDUpdatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57F86424090A980017DB59 /* MDUpdatePasswordViewController.swift */; };
+		8E57F87624090A980017DB59 /* MDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57F86824090A980017DB59 /* MDLoginViewController.swift */; };
+		8E57F87724090A980017DB59 /* MDResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57F86924090A980017DB59 /* MDResetPasswordViewController.swift */; };
+		8E57F87824090A980017DB59 /* MDResetPasswordRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57F86A24090A980017DB59 /* MDResetPasswordRequestViewController.swift */; };
+		8E57F88124090EB60017DB59 /* MDAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57F87F24090EB60017DB59 /* MDAppointmentViewController.swift */; };
+		8E57F88224090EB60017DB59 /* MDListAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57F88024090EB60017DB59 /* MDListAppointmentViewController.swift */; };
+		8E66BEEA24062A2E0022ADF8 /* McsTextInputControllerAllergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66BEE924062A2D0022ADF8 /* McsTextInputControllerAllergy.swift */; };
+		8E66BEEB24062A2E0022ADF8 /* McsTextInputControllerAllergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66BEE924062A2D0022ADF8 /* McsTextInputControllerAllergy.swift */; };
+		8E66BEED24062A4C0022ADF8 /* McsTextInputControllerSurgery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66BEEC24062A4C0022ADF8 /* McsTextInputControllerSurgery.swift */; };
+		8E66BEEE24062A4C0022ADF8 /* McsTextInputControllerSurgery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66BEEC24062A4C0022ADF8 /* McsTextInputControllerSurgery.swift */; };
+		8E690302240FBCAB0063E678 /* MDConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E690301240FBCAB0063E678 /* MDConstant.swift */; };
+		8E690304240FBD0B0063E678 /* MPConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E690303240FBD0B0063E678 /* MPConstant.swift */; };
+		8E6FD84923F292A500773D39 /* McsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FD84823F292A500773D39 /* McsCell.swift */; };
+		8E6FD84A23F292A500773D39 /* McsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FD84823F292A500773D39 /* McsCell.swift */; };
+		8E78F4D023CF1C6F0017789A /* font.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E78F4CE23CF1C6F0017789A /* font.json */; };
+		8E78F4D123CF1C6F0017789A /* font.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E78F4CE23CF1C6F0017789A /* font.json */; };
+		8E78F4D223CF1C6F0017789A /* color.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E78F4CF23CF1C6F0017789A /* color.json */; };
+		8E78F4D323CF1C6F0017789A /* color.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E78F4CF23CF1C6F0017789A /* color.json */; };
+		8E886A2223ED4758007E3A0C /* UISegmentControl_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E886A2123ED4758007E3A0C /* UISegmentControl_Extension.swift */; };
+		8E886A2323ED4758007E3A0C /* UISegmentControl_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E886A2123ED4758007E3A0C /* UISegmentControl_Extension.swift */; };
+		8E88823B240651B800BCC06D /* McsConfigReasonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88823A240651B800BCC06D /* McsConfigReasonApi.swift */; };
+		8E88823C240651B800BCC06D /* McsConfigReasonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88823A240651B800BCC06D /* McsConfigReasonApi.swift */; };
+		8EB9089E24120A9C0094FC5B /* McsAppointmentStatusUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB9089D24120A9C0094FC5B /* McsAppointmentStatusUpdateApi.swift */; };
+		8EB9089F24120A9C0094FC5B /* McsAppointmentStatusUpdateApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB9089D24120A9C0094FC5B /* McsAppointmentStatusUpdateApi.swift */; };
+		8ED7EE1423C861C4001E0A53 /* McsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0923C861C4001E0A53 /* McsTextField.swift */; };
+		8ED7EE1523C861C4001E0A53 /* McsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0923C861C4001E0A53 /* McsTextField.swift */; };
+		8ED7EE1723C861C4001E0A53 /* McsTextInputControllerCustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0A23C861C4001E0A53 /* McsTextInputControllerCustomKeyboard.swift */; };
+		8ED7EE1823C861C4001E0A53 /* McsTextInputControllerCustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0A23C861C4001E0A53 /* McsTextInputControllerCustomKeyboard.swift */; };
+		8ED7EE1D23C861C4001E0A53 /* McsTextInputControllerName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0C23C861C4001E0A53 /* McsTextInputControllerName.swift */; };
+		8ED7EE1E23C861C4001E0A53 /* McsTextInputControllerName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0C23C861C4001E0A53 /* McsTextInputControllerName.swift */; };
+		8ED7EE2023C861C4001E0A53 /* McsTextInputControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0D23C861C4001E0A53 /* McsTextInputControllerDefault.swift */; };
+		8ED7EE2123C861C4001E0A53 /* McsTextInputControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0D23C861C4001E0A53 /* McsTextInputControllerDefault.swift */; };
+		8ED7EE2323C861C4001E0A53 /* McsTextInputControllerEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0E23C861C4001E0A53 /* McsTextInputControllerEmail.swift */; };
+		8ED7EE2423C861C4001E0A53 /* McsTextInputControllerEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0E23C861C4001E0A53 /* McsTextInputControllerEmail.swift */; };
+		8ED7EE2623C861C4001E0A53 /* McsTextInputControllerPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0F23C861C4001E0A53 /* McsTextInputControllerPhone.swift */; };
+		8ED7EE2723C861C4001E0A53 /* McsTextInputControllerPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE0F23C861C4001E0A53 /* McsTextInputControllerPhone.swift */; };
+		8ED7EE2C23C861C4001E0A53 /* McsTextInputControllerPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE1123C861C4001E0A53 /* McsTextInputControllerPassword.swift */; };
+		8ED7EE2D23C861C4001E0A53 /* McsTextInputControllerPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7EE1123C861C4001E0A53 /* McsTextInputControllerPassword.swift */; };
+		8EFB4AED23E97C2000F70272 /* McsProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB4AEC23E97C2000F70272 /* McsProgressHUD.swift */; };
+		8EFB4AEE23E97C2000F70272 /* McsProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB4AEC23E97C2000F70272 /* McsProgressHUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A365A7620BF9CBC0005049A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9D51C820BE657E007A7D45 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A0026612400173D0056FFA5 /* McsTextInputControllerSymptom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerSymptom.swift; sourceTree = "<group>"; };
+		0A074B3023FF841E004A77F2 /* MPBookingPackageTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBookingPackageTypeViewController.swift; sourceTree = "<group>"; };
+		0A08342723F6E560002155D9 /* MPAllergyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPAllergyViewController.swift; sourceTree = "<group>"; };
+		0A08342D23F6EEE1002155D9 /* McsTextInputControllerDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerDate.swift; sourceTree = "<group>"; };
+		0A08343023F6EF3E002155D9 /* McsTextInputControllerNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerNote.swift; sourceTree = "<group>"; };
+		0A08343323F6F261002155D9 /* MPSurgeryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSurgeryViewController.swift; sourceTree = "<group>"; };
+		0A08343623F6F58F002155D9 /* McsTextInputControllerMonthYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerMonthYear.swift; sourceTree = "<group>"; };
+		0A0A7247217C2C680079ABFA /* MDPackageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDPackageCell.xib; sourceTree = "<group>"; };
+		0A0A7249217C2C680079ABFA /* MDPackageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDPackageCell.swift; sourceTree = "<group>"; };
+		0A0A8254213D471100880DAA /* MDClinicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDClinicViewController.swift; sourceTree = "<group>"; };
+		0A0A825A213D76F000880DAA /* MDDoctorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDDoctorViewController.swift; sourceTree = "<group>"; };
+		0A0E5FE7241A7CFD00BDC632 /* MPModelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPModelExtension.swift; sourceTree = "<group>"; };
+		0A248E65241137B00034CCEA /* MDDoctorInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDDoctorInfoCell.swift; sourceTree = "<group>"; };
+		0A248E67241138970034CCEA /* MPCertificateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCertificateCell.swift; sourceTree = "<group>"; };
+		0A2B8B872137E02D00BA2826 /* MDScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDScheduleViewController.swift; sourceTree = "<group>"; };
+		0A347AE525E8045400964345 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A347AE725E8046600964345 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A347AEB25E804BE00964345 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A347AED25E804C000964345 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A365A7B20BF9CBC0005049A /* doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A368164228AF76900DD20CA /* localization_vi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = localization_vi.json; sourceTree = "<group>"; };
+		0A368166228AF76900DD20CA /* localization_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = localization_en.json; sourceTree = "<group>"; };
+		0A36AF1A21B76D9200EFE956 /* UIImageView_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_Extension.swift; sourceTree = "<group>"; };
+		0A37024223D41B26005F89A6 /* McsTextInputControllerEmailPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerEmailPhone.swift; sourceTree = "<group>"; };
+		0A37024523D424CE005F89A6 /* String_PhoneExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_PhoneExtension.swift; sourceTree = "<group>"; };
+		0A39996E23E2C48400F2E7A9 /* McsTextInputControllerAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerAddress.swift; sourceTree = "<group>"; };
+		0A39997123E2C6FD00F2E7A9 /* McsTextInputControllerCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerCity.swift; sourceTree = "<group>"; };
+		0A39997423E2C70600F2E7A9 /* McsTextInputControllerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerState.swift; sourceTree = "<group>"; };
+		0A3F113E23F80C19001AFF84 /* McsPatientListSpecialtyApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientListSpecialtyApi.swift; sourceTree = "<group>"; };
+		0A409FB820AD849A005E7799 /* patient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A41E40623F2F02100F4A209 /* McsPatientPartialUpdateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientPartialUpdateApi.swift; sourceTree = "<group>"; };
+		0A41E40723F2F02100F4A209 /* McsPatientUpdateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientUpdateApi.swift; sourceTree = "<group>"; };
+		0A47096A23E86E85004FA37B /* ModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelExtension.swift; sourceTree = "<group>"; };
+		0A47571C213A427100010049 /* MPBookingSpecialtyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBookingSpecialtyViewController.swift; sourceTree = "<group>"; };
+		0A4E601D23D356BE00BA6454 /* McsAccountLoginApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAccountLoginApi.swift; sourceTree = "<group>"; };
+		0A522DAE21B1900300B2E9C1 /* McsImagePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McsImagePresentViewController.swift; sourceTree = "<group>"; };
+		0A58C0E5214CF42F00C466BB /* patient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = patient.entitlements; sourceTree = "<group>"; };
+		0A58C0E6214CF43C00C466BB /* doctor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = doctor.entitlements; sourceTree = "<group>"; };
+		0A5C61C8229E9F4100978955 /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		0A5C61CF229EA5C200978955 /* MPActivateRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPActivateRequestViewController.swift; sourceTree = "<group>"; };
+		0A5C61D2229EA5C200978955 /* MPUpdateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPUpdateAccountViewController.swift; sourceTree = "<group>"; };
+		0A5C61D3229EA5C200978955 /* MPLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPLoginViewController.swift; sourceTree = "<group>"; };
+		0A5C61D6229EA5C200978955 /* MPRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPRegisterViewController.swift; sourceTree = "<group>"; };
+		0A5C61D9229EA5C200978955 /* MPUpdatePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPUpdatePasswordViewController.swift; sourceTree = "<group>"; };
+		0A5C61DA229EA5C200978955 /* MPResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPResetPasswordViewController.swift; sourceTree = "<group>"; };
+		0A5C61DB229EA5C200978955 /* MPResetPasswordRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPResetPasswordRequestViewController.swift; sourceTree = "<group>"; };
+		0A5C61DC229EA5C200978955 /* MPActivateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPActivateViewController.swift; sourceTree = "<group>"; };
+		0A5C61ED229EA7F600978955 /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		0A5EE77A241BFAB700B556A2 /* MDPrescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDPrescriptionViewController.swift; sourceTree = "<group>"; };
+		0A607AA223E048AC0057F620 /* MPCreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCreateAccountViewController.swift; sourceTree = "<group>"; };
+		0A621E7C2417FADD00FE7CCD /* MDHistoryAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDHistoryAppointmentViewController.swift; sourceTree = "<group>"; };
+		0A6DB8A8240B929200951430 /* McsDoctorDetailApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorDetailApi.swift; sourceTree = "<group>"; };
+		0A6DB8AB240BB2A800951430 /* MDDoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDDoctorCell.swift; sourceTree = "<group>"; };
+		0A6DB8AC240BB2A900951430 /* MDDoctorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDDoctorCell.xib; sourceTree = "<group>"; };
+		0A73AFC221AAC1A9006A3F15 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A73AFC421AAC1A9006A3F15 /* Common.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Common.xcassets; sourceTree = "<group>"; };
+		0A73AFCE21AAC1AA006A3F15 /* McsConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsConstant.swift; sourceTree = "<group>"; };
+		0A73AFD021AAC1AA006A3F15 /* McsBaseDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsBaseDatabase.swift; sourceTree = "<group>"; };
+		0A73B00C21AAC1AA006A3F15 /* Other.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Other.storyboard; sourceTree = "<group>"; };
+		0A73B01221AAC1AA006A3F15 /* Date_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date_Extension.swift; sourceTree = "<group>"; };
+		0A73B01321AAC1AA006A3F15 /* McsUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsUtility.swift; sourceTree = "<group>"; };
+		0A73B01421AAC1AA006A3F15 /* ToString_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToString_Extension.swift; sourceTree = "<group>"; };
+		0A73B01821AAC1AA006A3F15 /* MPPatientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPPatientCell.swift; sourceTree = "<group>"; };
+		0A73B01921AAC1AA006A3F15 /* MPPatientCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPPatientCell.xib; sourceTree = "<group>"; };
+		0A73B01A21AAC1AA006A3F15 /* MDCertificateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDCertificateCell.swift; sourceTree = "<group>"; };
+		0A73B01B21AAC1AA006A3F15 /* McsCheckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsCheckCell.swift; sourceTree = "<group>"; };
+		0A73B01C21AAC1AA006A3F15 /* McsCheckCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = McsCheckCell.xib; sourceTree = "<group>"; };
+		0A73B01D21AAC1AA006A3F15 /* MPClinicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPClinicCell.swift; sourceTree = "<group>"; };
+		0A73B02221AAC1AA006A3F15 /* McsTextAddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = McsTextAddCell.xib; sourceTree = "<group>"; };
+		0A73B02321AAC1AA006A3F15 /* McsTextAddRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = McsTextAddRightCell.xib; sourceTree = "<group>"; };
+		0A73B02421AAC1AA006A3F15 /* McsTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextCell.swift; sourceTree = "<group>"; };
+		0A73B02521AAC1AA006A3F15 /* McsTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = McsTextCell.xib; sourceTree = "<group>"; };
+		0A73B02621AAC1AA006A3F15 /* McsTextDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextDetailCell.swift; sourceTree = "<group>"; };
+		0A73B02721AAC1AA006A3F15 /* McsTextDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = McsTextDetailCell.xib; sourceTree = "<group>"; };
+		0A73B02821AAC1AA006A3F15 /* McsTextDetailRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = McsTextDetailRightCell.xib; sourceTree = "<group>"; };
+		0A73B02921AAC1AA006A3F15 /* McsTextEmptyMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = McsTextEmptyMessageCell.xib; sourceTree = "<group>"; };
+		0A73B02A21AAC1AA006A3F15 /* MPDoctorInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPDoctorInfoCell.swift; sourceTree = "<group>"; };
+		0A73B03621AAC1AA006A3F15 /* McsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsNavigationController.swift; sourceTree = "<group>"; };
+		0A73B03A21AAC1AA006A3F15 /* McsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTableViewController.swift; sourceTree = "<group>"; };
+		0A73B03B21AAC1AA006A3F15 /* McsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsViewController.swift; sourceTree = "<group>"; };
+		0A73B03D21AAC1AA006A3F15 /* McsBaseCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsBaseCalendarViewController.swift; sourceTree = "<group>"; };
+		0A73B03F21AAC1AA006A3F15 /* McsRefreshAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsRefreshAccountViewController.swift; sourceTree = "<group>"; };
+		0A73B04121AAC1AA006A3F15 /* McsCertificateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsCertificateViewController.swift; sourceTree = "<group>"; };
+		0A7540B7212C49B70060A100 /* McsDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDatabase.swift; sourceTree = "<group>"; };
+		0A7540B9212C49B70060A100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A7540BB212C49B70060A100 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A7540C1212C49B70060A100 /* MDAppointmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDAppointmentCell.swift; sourceTree = "<group>"; };
+		0A7540C3212C49B70060A100 /* MDAppointmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDAppointmentCell.xib; sourceTree = "<group>"; };
+		0A754107212C49B70060A100 /* MDSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDSettingViewController.swift; sourceTree = "<group>"; };
+		0A75410A212C49B70060A100 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A75429B212C4A5B0060A100 /* McsDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDatabase.swift; sourceTree = "<group>"; };
+		0A75429D212C4A5B0060A100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A75429F212C4A5B0060A100 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A7542A0212C4A5B0060A100 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0A7542A5212C4A5B0060A100 /* MPDoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPDoctorCell.swift; sourceTree = "<group>"; };
+		0A7542A6212C4A5B0060A100 /* MPAppointmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPAppointmentCell.swift; sourceTree = "<group>"; };
+		0A7542A7212C4A5B0060A100 /* MPDoctorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPDoctorCell.xib; sourceTree = "<group>"; };
+		0A7542A9212C4A5B0060A100 /* MPAppointmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPAppointmentCell.xib; sourceTree = "<group>"; };
+		0A7542D7212C4A5B0060A100 /* MPAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPAppointmentViewController.swift; sourceTree = "<group>"; };
+		0A7542D8212C4A5B0060A100 /* MPListAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPListAppointmentViewController.swift; sourceTree = "<group>"; };
+		0A7542DA212C4A5B0060A100 /* MPBookingDoctorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBookingDoctorViewController.swift; sourceTree = "<group>"; };
+		0A7542DB212C4A5B0060A100 /* MPBookingListDoctorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBookingListDoctorViewController.swift; sourceTree = "<group>"; };
+		0A7542DC212C4A5B0060A100 /* MPBookingTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBookingTimeViewController.swift; sourceTree = "<group>"; };
+		0A7542DD212C4A5B0060A100 /* MPBookingHealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBookingHealthViewController.swift; sourceTree = "<group>"; };
+		0A7542DE212C4A5B0060A100 /* MPBookingSymptomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBookingSymptomViewController.swift; sourceTree = "<group>"; };
+		0A7542DF212C4A5B0060A100 /* MPBookingSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPBookingSummaryViewController.swift; sourceTree = "<group>"; };
+		0A7542E1212C4A5B0060A100 /* MPHealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPHealthViewController.swift; sourceTree = "<group>"; };
+		0A7542ED212C4A5B0060A100 /* MPSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSettingViewController.swift; sourceTree = "<group>"; };
+		0A7542EF212C4A5B0060A100 /* MPMainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPMainTabController.swift; sourceTree = "<group>"; };
+		0A7542F0212C4A5B0060A100 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7A0E5423DDC2E20036D2AE /* McsPatientRegisterApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientRegisterApi.swift; sourceTree = "<group>"; };
+		0A7A0E5823DDC43D0036D2AE /* ApiAlertExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiAlertExtention.swift; sourceTree = "<group>"; };
+		0A7C6789241F371100D74ADE /* McsSaveApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsSaveApi.swift; sourceTree = "<group>"; };
+		0A859DC72179DF2900B48F15 /* MDListPackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDListPackageViewController.swift; sourceTree = "<group>"; };
+		0A9A1C7723D34128004BC069 /* McsRequestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsRequestApi.swift; sourceTree = "<group>"; };
+		0A9A1C7A23D34132004BC069 /* McsUserRequestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsUserRequestApi.swift; sourceTree = "<group>"; };
+		0A9A1C7E23D34549004BC069 /* McsLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsLog.swift; sourceTree = "<group>"; };
+		0A9A1C8A23D3527E004BC069 /* McsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McsEnum.swift; sourceTree = "<group>"; };
+		0A9DE52B218BEDEF0088F2A0 /* MDHistoryListAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDHistoryListAppointmentViewController.swift; sourceTree = "<group>"; };
+		0AA49F4C241806C300AF3AB2 /* McsApnsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McsApnsService.swift; sourceTree = "<group>"; };
+		0AA7D5F323EC5E0E009CFC19 /* McsPatientCreateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientCreateApi.swift; sourceTree = "<group>"; };
+		0AA8DEE32664C3A0004E03C4 /* McsMultilineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsMultilineTextField.swift; sourceTree = "<group>"; };
+		0AAE7B3022D247C900F51267 /* McsWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McsWebViewController.swift; sourceTree = "<group>"; };
+		0AB19299241BCABE000FA615 /* McsTextInputControllerClearableTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerClearableTime.swift; sourceTree = "<group>"; };
+		0AB2780D240FF9630065FEB8 /* McsSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsSchedule.swift; sourceTree = "<group>"; };
+		0AB2780F240FF9E80065FEB8 /* McsTimeRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTimeRange.swift; sourceTree = "<group>"; };
+		0AB27813240FFA890065FEB8 /* McsDateRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDateRange.swift; sourceTree = "<group>"; };
+		0AC38BD123E5DA4F00714CD7 /* McsConfigApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsConfigApi.swift; sourceTree = "<group>"; };
+		0AC38BD423E5EA4700714CD7 /* McsCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McsCity.swift; path = mcs/Backend/Model/Common/McsCity.swift; sourceTree = SOURCE_ROOT; };
+		0AC38BD523E5EA4700714CD7 /* McsState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McsState.swift; path = mcs/Backend/Model/Common/McsState.swift; sourceTree = SOURCE_ROOT; };
+		0AC38BDA23E5EA9000714CD7 /* McsCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsCountry.swift; sourceTree = "<group>"; };
+		0AC38BDD23E5EBBE00714CD7 /* McsSpecialty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsSpecialty.swift; sourceTree = "<group>"; };
+		0AC45E1A23F055EF00E182A0 /* McsUploadImageApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsUploadImageApi.swift; sourceTree = "<group>"; };
+		0AC45E1D23F0565600E182A0 /* McsRequestFormApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsRequestFormApi.swift; sourceTree = "<group>"; };
+		0AD65C8323DEAECB00772455 /* McsPatientActivateRequestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientActivateRequestApi.swift; sourceTree = "<group>"; };
+		0AD65C8423DEAECB00772455 /* McsPatientActivateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientActivateApi.swift; sourceTree = "<group>"; };
+		0AD65C8923DED01600772455 /* McsTextInputControllerCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerCode.swift; sourceTree = "<group>"; };
+		0AD8581A23CAE1A90052E8AC /* ApiDateExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiDateExtention.swift; sourceTree = "<group>"; };
+		0AD8581B23CAE1A90052E8AC /* ApiTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTransformer.swift; sourceTree = "<group>"; };
+		0AD8582823CAE1A90052E8AC /* McsBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsBase.swift; sourceTree = "<group>"; };
+		0AD8582A23CAE1A90052E8AC /* McsAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAccount.swift; sourceTree = "<group>"; };
+		0AD8582B23CAE1A90052E8AC /* McsMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsMappable.swift; sourceTree = "<group>"; };
+		0AD8582D23CAE1A90052E8AC /* McsValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsValue.swift; sourceTree = "<group>"; };
+		0AD8582E23CAE1A90052E8AC /* McsAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAddress.swift; sourceTree = "<group>"; };
+		0AD8584223CAE1A90052E8AC /* McsProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsProfile.swift; sourceTree = "<group>"; };
+		0AD8584423CAE1A90052E8AC /* McsSymptom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsSymptom.swift; sourceTree = "<group>"; };
+		0AD8584623CAE1A90052E8AC /* McsPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPrice.swift; sourceTree = "<group>"; };
+		0AD8584C23CAE1A90052E8AC /* McsSurgery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsSurgery.swift; sourceTree = "<group>"; };
+		0AD8584E23CAE1A90052E8AC /* McsPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatient.swift; sourceTree = "<group>"; };
+		0AD8584F23CAE1A90052E8AC /* McsMedication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsMedication.swift; sourceTree = "<group>"; };
+		0AD8585023CAE1A90052E8AC /* McsAllergy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAllergy.swift; sourceTree = "<group>"; };
+		0AD8585423CAE1A90052E8AC /* McsDoctorCert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorCert.swift; sourceTree = "<group>"; };
+		0AD8585523CAE1A90052E8AC /* McsDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctor.swift; sourceTree = "<group>"; };
+		0AD8585623CAE1A90052E8AC /* McsClinicCert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsClinicCert.swift; sourceTree = "<group>"; };
+		0AD8585723CAE1A90052E8AC /* McsCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsCertificate.swift; sourceTree = "<group>"; };
+		0AD8585923CAE1A90052E8AC /* McsPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPackage.swift; sourceTree = "<group>"; };
+		0AD8585A23CAE1A90052E8AC /* McsWorkingTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsWorkingTime.swift; sourceTree = "<group>"; };
+		0AD8585B23CAE1A90052E8AC /* McsClinic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsClinic.swift; sourceTree = "<group>"; };
+		0AD8586323CAE1A90052E8AC /* McsAccountResetPasswordApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAccountResetPasswordApi.swift; sourceTree = "<group>"; };
+		0AD8586923CAE1A90052E8AC /* McsAccountResetPasswordRequestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAccountResetPasswordRequestApi.swift; sourceTree = "<group>"; };
+		0AD8586E23CAE1A90052E8AC /* McsAccountDeviceSetApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAccountDeviceSetApi.swift; sourceTree = "<group>"; };
+		0AD8587C23CAE1A90052E8AC /* McsDoctorListAppointmentApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorListAppointmentApi.swift; sourceTree = "<group>"; };
+		0AD8587E23CAE1A90052E8AC /* McsDoctorAppointmentDetailApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorAppointmentDetailApi.swift; sourceTree = "<group>"; };
+		0AD8587F23CAE1A90052E8AC /* McsDoctorBeginAppointmentApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorBeginAppointmentApi.swift; sourceTree = "<group>"; };
+		0AD8588023CAE1A90052E8AC /* McsDoctorFinishAppointmentApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorFinishAppointmentApi.swift; sourceTree = "<group>"; };
+		0AD8588223CAE1A90052E8AC /* McsDoctorPackageDetailApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorPackageDetailApi.swift; sourceTree = "<group>"; };
+		0AD8588623CAE1A90052E8AC /* McsDoctorClinicInfoApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorClinicInfoApi.swift; sourceTree = "<group>"; };
+		0AD8588E23CAE1A90052E8AC /* McsDoctorClinicDetailApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorClinicDetailApi.swift; sourceTree = "<group>"; };
+		0AD8589023CAE1A90052E8AC /* McsDoctorListPackageApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorListPackageApi.swift; sourceTree = "<group>"; };
+		0AD858AF23CAE1A90052E8AC /* McsPatientAppointmentDetailApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientAppointmentDetailApi.swift; sourceTree = "<group>"; };
+		0AD858B023CAE1A90052E8AC /* McsPatientAppointmentCreateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientAppointmentCreateApi.swift; sourceTree = "<group>"; };
+		0AD858B123CAE1A90052E8AC /* McsPatientCancelAppointmentApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientCancelAppointmentApi.swift; sourceTree = "<group>"; };
+		0AD858B223CAE1A90052E8AC /* McsPatientListAppointmentApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientListAppointmentApi.swift; sourceTree = "<group>"; };
+		0AD858B523CAE1A90052E8AC /* McsPatientListWorkingTimeApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientListWorkingTimeApi.swift; sourceTree = "<group>"; };
+		0AD858B623CAE1A90052E8AC /* McsPatientListDoctorApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientListDoctorApi.swift; sourceTree = "<group>"; };
+		0AD858B723CAE1A90052E8AC /* McsPatientDoctorDetailApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientDoctorDetailApi.swift; sourceTree = "<group>"; };
+		0AD858B823CAE1A90052E8AC /* McsPatientListBookingTimeApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientListBookingTimeApi.swift; sourceTree = "<group>"; };
+		0AD858BA23CAE1A90052E8AC /* McsPatientHealthDetailApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientHealthDetailApi.swift; sourceTree = "<group>"; };
+		0AD858BC23CAE1A90052E8AC /* McsPatientAllergyCreateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientAllergyCreateApi.swift; sourceTree = "<group>"; };
+		0AD858BE23CAE1A90052E8AC /* McsPatientAllergyDeleteApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientAllergyDeleteApi.swift; sourceTree = "<group>"; };
+		0AD858C023CAE1A90052E8AC /* McsPatientAllergyUpdateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientAllergyUpdateApi.swift; sourceTree = "<group>"; };
+		0AD858C323CAE1A90052E8AC /* McsPatientSurgeryDeleteApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientSurgeryDeleteApi.swift; sourceTree = "<group>"; };
+		0AD858C423CAE1A90052E8AC /* McsPatientSurgeryCreateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientSurgeryCreateApi.swift; sourceTree = "<group>"; };
+		0AD858C623CAE1A90052E8AC /* McsPatientSurgeryUpdateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientSurgeryUpdateApi.swift; sourceTree = "<group>"; };
+		0AD858CA23CAE1A90052E8AC /* McsPatientMedicationUpdateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientMedicationUpdateApi.swift; sourceTree = "<group>"; };
+		0AD858CF23CAE1A90052E8AC /* McsPatientDetailApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPatientDetailApi.swift; sourceTree = "<group>"; };
+		0AD858D123CAE1A90052E8AC /* McsAccountUpdatePasswordApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAccountUpdatePasswordApi.swift; sourceTree = "<group>"; };
+		0ADD589E2402079A002B5FF1 /* McsAppointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAppointment.swift; sourceTree = "<group>"; };
+		0ADD589F2402079A002B5FF1 /* McsAptStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAptStatus.swift; sourceTree = "<group>"; };
+		0ADDD29523D2268300B76668 /* McsFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsFormViewController.swift; sourceTree = "<group>"; };
+		0AE399E22410034F00A54CD2 /* McsWorkingDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsWorkingDay.swift; sourceTree = "<group>"; };
+		0AEFAB7723DF439200C771FF /* McsTextInputControllerRePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerRePassword.swift; sourceTree = "<group>"; };
+		0AF5C864240FF0C40007CBBE /* MDPackageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDPackageDetailViewController.swift; sourceTree = "<group>"; };
+		0AFC13F02430663F004F7D9C /* McsBackendConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = McsBackendConstant.swift; path = mcs/Backend/McsBackendConstant.swift; sourceTree = SOURCE_ROOT; };
+		0AFC9C862419CFEB00A7AFC7 /* McsTextInputControllerSymptomWhen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerSymptomWhen.swift; sourceTree = "<group>"; };
+		0AFC9C892419D0F500A7AFC7 /* McsDoctorListWorkingTimeApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDoctorListWorkingTimeApi.swift; sourceTree = "<group>"; };
+		0AFCB83B23E71547006F682E /* McsAppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McsAppConfiguration.swift; sourceTree = "<group>"; };
+		0AFCB83E23E71C2D006F682E /* country.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
+		0AFCB84023E71C2D006F682E /* specialty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = specialty.json; sourceTree = "<group>"; };
+		0AFD580324040E83004DAE00 /* McsCreateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsCreateApi.swift; sourceTree = "<group>"; };
+		0AFD580424040E83004DAE00 /* McsDeleteApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsDeleteApi.swift; sourceTree = "<group>"; };
+		0AFD580924040E89004DAE00 /* McsUpdateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsUpdateApi.swift; sourceTree = "<group>"; };
+		0AFD580C240413DD004DAE00 /* McsPartialUpdateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsPartialUpdateApi.swift; sourceTree = "<group>"; };
+		49D7093DBBB9B5110E2C2B8A /* Pods-patient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-patient.release.xcconfig"; path = "Target Support Files/Pods-patient/Pods-patient.release.xcconfig"; sourceTree = "<group>"; };
+		6021B88AE58DA1ADB333913C /* Pods-doctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doctor.release.xcconfig"; path = "Target Support Files/Pods-doctor/Pods-doctor.release.xcconfig"; sourceTree = "<group>"; };
+		8E286CBF2410FFB10049B163 /* MDTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDTimeCell.swift; sourceTree = "<group>"; };
+		8E49277A2411FCDD003221B3 /* MDModelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDModelExtension.swift; sourceTree = "<group>"; };
+		8E57F8582408D5840017DB59 /* MDMainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDMainTabController.swift; sourceTree = "<group>"; };
+		8E57F85A2409098D0017DB59 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8E57F86424090A980017DB59 /* MDUpdatePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDUpdatePasswordViewController.swift; sourceTree = "<group>"; };
+		8E57F86824090A980017DB59 /* MDLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDLoginViewController.swift; sourceTree = "<group>"; };
+		8E57F86924090A980017DB59 /* MDResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDResetPasswordViewController.swift; sourceTree = "<group>"; };
+		8E57F86A24090A980017DB59 /* MDResetPasswordRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDResetPasswordRequestViewController.swift; sourceTree = "<group>"; };
+		8E57F87F24090EB60017DB59 /* MDAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDAppointmentViewController.swift; sourceTree = "<group>"; };
+		8E57F88024090EB60017DB59 /* MDListAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDListAppointmentViewController.swift; sourceTree = "<group>"; };
+		8E66BEE924062A2D0022ADF8 /* McsTextInputControllerAllergy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerAllergy.swift; sourceTree = "<group>"; };
+		8E66BEEC24062A4C0022ADF8 /* McsTextInputControllerSurgery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerSurgery.swift; sourceTree = "<group>"; };
+		8E690301240FBCAB0063E678 /* MDConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDConstant.swift; sourceTree = "<group>"; };
+		8E690303240FBD0B0063E678 /* MPConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPConstant.swift; sourceTree = "<group>"; };
+		8E6FD84823F292A500773D39 /* McsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsCell.swift; sourceTree = "<group>"; };
+		8E78F4CE23CF1C6F0017789A /* font.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = font.json; sourceTree = "<group>"; };
+		8E78F4CF23CF1C6F0017789A /* color.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = color.json; sourceTree = "<group>"; };
+		8E886A2123ED4758007E3A0C /* UISegmentControl_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentControl_Extension.swift; sourceTree = "<group>"; };
+		8E88823A240651B800BCC06D /* McsConfigReasonApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsConfigReasonApi.swift; sourceTree = "<group>"; };
+		8EB9089D24120A9C0094FC5B /* McsAppointmentStatusUpdateApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsAppointmentStatusUpdateApi.swift; sourceTree = "<group>"; };
+		8ED7EE0923C861C4001E0A53 /* McsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextField.swift; sourceTree = "<group>"; };
+		8ED7EE0A23C861C4001E0A53 /* McsTextInputControllerCustomKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerCustomKeyboard.swift; sourceTree = "<group>"; };
+		8ED7EE0C23C861C4001E0A53 /* McsTextInputControllerName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerName.swift; sourceTree = "<group>"; };
+		8ED7EE0D23C861C4001E0A53 /* McsTextInputControllerDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerDefault.swift; sourceTree = "<group>"; };
+		8ED7EE0E23C861C4001E0A53 /* McsTextInputControllerEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerEmail.swift; sourceTree = "<group>"; };
+		8ED7EE0F23C861C4001E0A53 /* McsTextInputControllerPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerPhone.swift; sourceTree = "<group>"; };
+		8ED7EE1123C861C4001E0A53 /* McsTextInputControllerPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McsTextInputControllerPassword.swift; sourceTree = "<group>"; };
+		8EEBDBC423C728F8002FA32B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8EFB4AEC23E97C2000F70272 /* McsProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McsProgressHUD.swift; sourceTree = "<group>"; };
+		90C1E1E0172126295A42CC06 /* Pods_patient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_patient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE412841219C67A878B7F67F /* Pods_doctor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doctor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE493EA1C1B8649CDE56D30B /* Pods-doctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doctor.debug.xcconfig"; path = "Target Support Files/Pods-doctor/Pods-doctor.debug.xcconfig"; sourceTree = "<group>"; };
+		DF28E136A3EF6602D744D18F /* Pods-patient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-patient.debug.xcconfig"; path = "Target Support Files/Pods-patient/Pods-patient.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A365A7120BF9CBC0005049A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268155D7F7781A79C5CF02A3 /* Pods_doctor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A409FB520AD8499005E7799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D0FDD5313DDA509970B015 /* Pods_patient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0E5FE6241A7CFD00BDC632 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A0E5FE7241A7CFD00BDC632 /* MPModelExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A175E1121D05F99006D79E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A47096A23E86E85004FA37B /* ModelExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A2F22A623FC3D2900F04989 /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8585B23CAE1A90052E8AC /* McsClinic.swift */,
+				0AD8585623CAE1A90052E8AC /* McsClinicCert.swift */,
+				0AD8585523CAE1A90052E8AC /* McsDoctor.swift */,
+				0AD8585423CAE1A90052E8AC /* McsDoctorCert.swift */,
+				0AD8585923CAE1A90052E8AC /* McsPackage.swift */,
+				0AB2780D240FF9630065FEB8 /* McsSchedule.swift */,
+				0AE399E22410034F00A54CD2 /* McsWorkingDay.swift */,
+				0AD8585A23CAE1A90052E8AC /* McsWorkingTime.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		0A368163228AF76900DD20CA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A73AFC421AAC1A9006A3F15 /* Common.xcassets */,
+				8E78F4CF23CF1C6F0017789A /* color.json */,
+				8E78F4CE23CF1C6F0017789A /* font.json */,
+				0A368166228AF76900DD20CA /* localization_en.json */,
+				0A368164228AF76900DD20CA /* localization_vi.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0A409FAF20AD8499005E7799 = {
+			isa = PBXGroup;
+			children = (
+				8EEBDBC423C728F8002FA32B /* README.md */,
+				0A58C0E6214CF43C00C466BB /* doctor.entitlements */,
+				0A58C0E5214CF42F00C466BB /* patient.entitlements */,
+				0A409FBA20AD849A005E7799 /* mcs */,
+				0A409FB920AD849A005E7799 /* Products */,
+				F0E04715B178872CE9FB6886 /* Pods */,
+				A24CDD333AF294A91FC2E1A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A409FB920AD849A005E7799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A409FB820AD849A005E7799 /* patient.app */,
+				0A365A7B20BF9CBC0005049A /* doctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A409FBA20AD849A005E7799 /* mcs */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A1C7623D33E35004BC069 /* Backend */,
+				0A73AF9B21AAC1A9006A3F15 /* Common */,
+				0A7540B5212C49B70060A100 /* Doctor */,
+				0A754299212C4A5B0060A100 /* Patient */,
+			);
+			path = mcs;
+			sourceTree = "<group>";
+		};
+		0A5C61CE229EA5C200978955 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C61CF229EA5C200978955 /* MPActivateRequestViewController.swift */,
+				0A5C61DC229EA5C200978955 /* MPActivateViewController.swift */,
+				0A607AA223E048AC0057F620 /* MPCreateAccountViewController.swift */,
+				0A5C61D3229EA5C200978955 /* MPLoginViewController.swift */,
+				0A5C61D6229EA5C200978955 /* MPRegisterViewController.swift */,
+				0A5C61DB229EA5C200978955 /* MPResetPasswordRequestViewController.swift */,
+				0A5C61DA229EA5C200978955 /* MPResetPasswordViewController.swift */,
+				0A5C61D2229EA5C200978955 /* MPUpdateAccountViewController.swift */,
+				0A5C61D9229EA5C200978955 /* MPUpdatePasswordViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0A621E7B2417FA9F00FE7CCD /* History */ = {
+			isa = PBXGroup;
+			children = (
+				0A9DE52B218BEDEF0088F2A0 /* MDHistoryListAppointmentViewController.swift */,
+				0A621E7C2417FADD00FE7CCD /* MDHistoryAppointmentViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		0A6B7433229E49C600C25EC7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0A7542EF212C4A5B0060A100 /* MPMainTabController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0A6B7436229E58D500C25EC7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E57F8582408D5840017DB59 /* MDMainTabController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0A73AF9B21AAC1A9006A3F15 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0A73AFC221AAC1A9006A3F15 /* AppDelegate.swift */,
+				0A73AFCF21AAC1AA006A3F15 /* Center */,
+				0A175E1121D05F99006D79E2 /* Model */,
+				0A368163228AF76900DD20CA /* Resource */,
+				0AA49F4B2418069D00AF3AB2 /* Service */,
+				0A73B00A21AAC1AA006A3F15 /* Storyboard */,
+				8ED7EE0823C861C4001E0A53 /* TextFieldController */,
+				0A73B01021AAC1AA006A3F15 /* Utility */,
+				0A73B01721AAC1AA006A3F15 /* View */,
+				0A73B02B21AAC1AA006A3F15 /* ViewController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0A73AFCF21AAC1AA006A3F15 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCB83E23E71C2D006F682E /* country.json */,
+				0AFCB84023E71C2D006F682E /* specialty.json */,
+				0AFCB83B23E71547006F682E /* McsAppConfiguration.swift */,
+				0A73AFD021AAC1AA006A3F15 /* McsBaseDatabase.swift */,
+				0A73AFCE21AAC1AA006A3F15 /* McsConstant.swift */,
+				0A9A1C7E23D34549004BC069 /* McsLog.swift */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		0A73B00A21AAC1AA006A3F15 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0A73B00C21AAC1AA006A3F15 /* Other.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0A73B01021AAC1AA006A3F15 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A0E5823DDC43D0036D2AE /* ApiAlertExtention.swift */,
+				0A73B01221AAC1AA006A3F15 /* Date_Extension.swift */,
+				0A73B01321AAC1AA006A3F15 /* McsUtility.swift */,
+				8EFB4AEC23E97C2000F70272 /* McsProgressHUD.swift */,
+				0A37024523D424CE005F89A6 /* String_PhoneExtension.swift */,
+				0A73B01421AAC1AA006A3F15 /* ToString_Extension.swift */,
+				0A36AF1A21B76D9200EFE956 /* UIImageView_Extension.swift */,
+				8E886A2123ED4758007E3A0C /* UISegmentControl_Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0A73B01721AAC1AA006A3F15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FD84823F292A500773D39 /* McsCell.swift */,
+				0A73B01B21AAC1AA006A3F15 /* McsCheckCell.swift */,
+				0A73B01C21AAC1AA006A3F15 /* McsCheckCell.xib */,
+				0A73B02221AAC1AA006A3F15 /* McsTextAddCell.xib */,
+				0A73B02321AAC1AA006A3F15 /* McsTextAddRightCell.xib */,
+				0A73B02421AAC1AA006A3F15 /* McsTextCell.swift */,
+				0A73B02521AAC1AA006A3F15 /* McsTextCell.xib */,
+				0A73B02621AAC1AA006A3F15 /* McsTextDetailCell.swift */,
+				0A73B02721AAC1AA006A3F15 /* McsTextDetailCell.xib */,
+				0A73B02821AAC1AA006A3F15 /* McsTextDetailRightCell.xib */,
+				0A73B02921AAC1AA006A3F15 /* McsTextEmptyMessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A73B02B21AAC1AA006A3F15 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A73B03421AAC1AA006A3F15 /* Basic */,
+				0A73B03C21AAC1AA006A3F15 /* Main */,
+				0A73B04021AAC1AA006A3F15 /* Other */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0A73B03421AAC1AA006A3F15 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				0ADDD29523D2268300B76668 /* McsFormViewController.swift */,
+				0AAE7B3022D247C900F51267 /* McsWebViewController.swift */,
+				0A73B03621AAC1AA006A3F15 /* McsNavigationController.swift */,
+				0A73B03A21AAC1AA006A3F15 /* McsTableViewController.swift */,
+				0A73B03B21AAC1AA006A3F15 /* McsViewController.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		0A73B03C21AAC1AA006A3F15 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0A73B03D21AAC1AA006A3F15 /* McsBaseCalendarViewController.swift */,
+				0A73B03F21AAC1AA006A3F15 /* McsRefreshAccountViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0A73B04021AAC1AA006A3F15 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A73B04121AAC1AA006A3F15 /* McsCertificateViewController.swift */,
+				0A522DAE21B1900300B2E9C1 /* McsImagePresentViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A7540B5212C49B70060A100 /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				0A75410A212C49B70060A100 /* Info.plist */,
+				0A347AEC25E804BE00964345 /* InfoPlist.strings */,
+				0A7540B6212C49B70060A100 /* Center */,
+				8E4927792411FCDD003221B3 /* Model */,
+				0A7540B8212C49B70060A100 /* Resource */,
+				0A7540BA212C49B70060A100 /* Storyboard */,
+				0A7540BF212C49B70060A100 /* View */,
+				0A7540FA212C49B70060A100 /* ViewController */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		0A7540B6212C49B70060A100 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				0A7540B7212C49B70060A100 /* McsDatabase.swift */,
+				8E690301240FBCAB0063E678 /* MDConstant.swift */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		0A7540B8212C49B70060A100 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A7540B9212C49B70060A100 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0A7540BA212C49B70060A100 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C61C8229E9F4100978955 /* Account.storyboard */,
+				0A7540BB212C49B70060A100 /* LaunchScreen.storyboard */,
+				8E57F85A2409098D0017DB59 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0A7540BF212C49B70060A100 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A7540C1212C49B70060A100 /* MDAppointmentCell.swift */,
+				0A7540C3212C49B70060A100 /* MDAppointmentCell.xib */,
+				0A73B01A21AAC1AA006A3F15 /* MDCertificateCell.swift */,
+				0A6DB8AB240BB2A800951430 /* MDDoctorCell.swift */,
+				0A6DB8AC240BB2A900951430 /* MDDoctorCell.xib */,
+				0A248E65241137B00034CCEA /* MDDoctorInfoCell.swift */,
+				0A0A7249217C2C680079ABFA /* MDPackageCell.swift */,
+				0A0A7247217C2C680079ABFA /* MDPackageCell.xib */,
+				8E286CBF2410FFB10049B163 /* MDTimeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A7540FA212C49B70060A100 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E57F86224090A980017DB59 /* Account */,
+				8E57F87A24090E8A0017DB59 /* Appointment */,
+				0A621E7B2417FA9F00FE7CCD /* History */,
+				0A6B7436229E58D500C25EC7 /* Main */,
+				0A754106212C49B70060A100 /* Setting */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0A754106212C49B70060A100 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0A0A8254213D471100880DAA /* MDClinicViewController.swift */,
+				0A0A825A213D76F000880DAA /* MDDoctorViewController.swift */,
+				0A859DC72179DF2900B48F15 /* MDListPackageViewController.swift */,
+				0AF5C864240FF0C40007CBBE /* MDPackageDetailViewController.swift */,
+				0A2B8B872137E02D00BA2826 /* MDScheduleViewController.swift */,
+				0A754107212C49B70060A100 /* MDSettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		0A754299212C4A5B0060A100 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				0A7542F0212C4A5B0060A100 /* Info.plist */,
+				0A347AE625E8045400964345 /* InfoPlist.strings */,
+				0A0E5FE6241A7CFD00BDC632 /* Model */,
+				0A75429A212C4A5B0060A100 /* Center */,
+				0A75429C212C4A5B0060A100 /* Resource */,
+				0A75429E212C4A5B0060A100 /* Storyboard */,
+				0A7542A3212C4A5B0060A100 /* View */,
+				0A7542D5212C4A5B0060A100 /* ViewController */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		0A75429A212C4A5B0060A100 /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				0A75429B212C4A5B0060A100 /* McsDatabase.swift */,
+				8E690303240FBD0B0063E678 /* MPConstant.swift */,
+			);
+			path = Center;
+			sourceTree = "<group>";
+		};
+		0A75429C212C4A5B0060A100 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A75429D212C4A5B0060A100 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0A75429E212C4A5B0060A100 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C61ED229EA7F600978955 /* Account.storyboard */,
+				0A7542A0212C4A5B0060A100 /* Main.storyboard */,
+				0A75429F212C4A5B0060A100 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0A7542A3212C4A5B0060A100 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A7542A6212C4A5B0060A100 /* MPAppointmentCell.swift */,
+				0A7542A9212C4A5B0060A100 /* MPAppointmentCell.xib */,
+				0A248E67241138970034CCEA /* MPCertificateCell.swift */,
+				0A73B01D21AAC1AA006A3F15 /* MPClinicCell.swift */,
+				0A7542A5212C4A5B0060A100 /* MPDoctorCell.swift */,
+				0A7542A7212C4A5B0060A100 /* MPDoctorCell.xib */,
+				0A73B02A21AAC1AA006A3F15 /* MPDoctorInfoCell.swift */,
+				0A73B01821AAC1AA006A3F15 /* MPPatientCell.swift */,
+				0A73B01921AAC1AA006A3F15 /* MPPatientCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A7542D5212C4A5B0060A100 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C61CE229EA5C200978955 /* Account */,
+				0A7542D6212C4A5B0060A100 /* Appointment */,
+				0A7542D9212C4A5B0060A100 /* Booking */,
+				0A7542E0212C4A5B0060A100 /* Health */,
+				0A6B7433229E49C600C25EC7 /* Main */,
+				0A7542EC212C4A5B0060A100 /* Setting */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0A7542D6212C4A5B0060A100 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				0A7542D7212C4A5B0060A100 /* MPAppointmentViewController.swift */,
+				0A7542D8212C4A5B0060A100 /* MPListAppointmentViewController.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		0A7542D9212C4A5B0060A100 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				0A7542DA212C4A5B0060A100 /* MPBookingDoctorViewController.swift */,
+				0A7542DD212C4A5B0060A100 /* MPBookingHealthViewController.swift */,
+				0A7542DB212C4A5B0060A100 /* MPBookingListDoctorViewController.swift */,
+				0A074B3023FF841E004A77F2 /* MPBookingPackageTypeViewController.swift */,
+				0A47571C213A427100010049 /* MPBookingSpecialtyViewController.swift */,
+				0A7542DF212C4A5B0060A100 /* MPBookingSummaryViewController.swift */,
+				0A7542DE212C4A5B0060A100 /* MPBookingSymptomViewController.swift */,
+				0A7542DC212C4A5B0060A100 /* MPBookingTimeViewController.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		0A7542E0212C4A5B0060A100 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				0A08342723F6E560002155D9 /* MPAllergyViewController.swift */,
+				0A7542E1212C4A5B0060A100 /* MPHealthViewController.swift */,
+				0A08343323F6F261002155D9 /* MPSurgeryViewController.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		0A7542EC212C4A5B0060A100 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0A7542ED212C4A5B0060A100 /* MPSettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		0A7A0E5723DDC3C20036D2AE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8581A23CAE1A90052E8AC /* ApiDateExtention.swift */,
+				0AD8581B23CAE1A90052E8AC /* ApiTransformer.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0A9A1C7623D33E35004BC069 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC13F02430663F004F7D9C /* McsBackendConstant.swift */,
+				0A9A1C8223D34F99004BC069 /* Api */,
+				0A9A1C8123D34F90004BC069 /* Model */,
+				0A7A0E5723DDC3C20036D2AE /* Util */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		0A9A1C7D23D34140004BC069 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8EB9089D24120A9C0094FC5B /* McsAppointmentStatusUpdateApi.swift */,
+				0AFD580324040E83004DAE00 /* McsCreateApi.swift */,
+				0AFD580424040E83004DAE00 /* McsDeleteApi.swift */,
+				0AFD580C240413DD004DAE00 /* McsPartialUpdateApi.swift */,
+				0A9A1C7723D34128004BC069 /* McsRequestApi.swift */,
+				0AC45E1D23F0565600E182A0 /* McsRequestFormApi.swift */,
+				0A7C6789241F371100D74ADE /* McsSaveApi.swift */,
+				0AFD580924040E89004DAE00 /* McsUpdateApi.swift */,
+				0A9A1C7A23D34132004BC069 /* McsUserRequestApi.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0A9A1C8123D34F90004BC069 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EFB4AF223E9803F00F70272 /* Common */,
+				0A2F22A623FC3D2900F04989 /* Doctor */,
+				8EFB4AF323E9804B00F70272 /* Patient */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A9A1C8223D34F99004BC069 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				0A9A1C8323D34FB0004BC069 /* Account */,
+				0A9A1C7D23D34140004BC069 /* Base */,
+				0AC38BD023E5D9F400714CD7 /* Common */,
+				0AD8587A23CAE1A90052E8AC /* Doctor */,
+				8E8F3C8E23E9756E003032C1 /* Patient */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		0A9A1C8323D34FB0004BC069 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8586E23CAE1A90052E8AC /* McsAccountDeviceSetApi.swift */,
+				0A4E601D23D356BE00BA6454 /* McsAccountLoginApi.swift */,
+				0AD8586323CAE1A90052E8AC /* McsAccountResetPasswordApi.swift */,
+				0AD8586923CAE1A90052E8AC /* McsAccountResetPasswordRequestApi.swift */,
+				0AD858D123CAE1A90052E8AC /* McsAccountUpdatePasswordApi.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0AA49F4B2418069D00AF3AB2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0AA49F4C241806C300AF3AB2 /* McsApnsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0AC38BD023E5D9F400714CD7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0AC38BD123E5DA4F00714CD7 /* McsConfigApi.swift */,
+				8E88823A240651B800BCC06D /* McsConfigReasonApi.swift */,
+				0AC45E1A23F055EF00E182A0 /* McsUploadImageApi.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0AD8587A23CAE1A90052E8AC /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8588323CAE1A90052E8AC /* Account */,
+				0AD8587B23CAE1A90052E8AC /* Appointment */,
+				0AD8588D23CAE1A90052E8AC /* Clinic */,
+				0AD8588F23CAE1A90052E8AC /* Package */,
+				0AD8588123CAE1A90052E8AC /* Working */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		0AD8587B23CAE1A90052E8AC /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8587E23CAE1A90052E8AC /* McsDoctorAppointmentDetailApi.swift */,
+				0AD8587F23CAE1A90052E8AC /* McsDoctorBeginAppointmentApi.swift */,
+				0AD8588023CAE1A90052E8AC /* McsDoctorFinishAppointmentApi.swift */,
+				0AD8587C23CAE1A90052E8AC /* McsDoctorListAppointmentApi.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		0AD8588123CAE1A90052E8AC /* Working */ = {
+			isa = PBXGroup;
+			children = (
+				0AFC9C892419D0F500A7AFC7 /* McsDoctorListWorkingTimeApi.swift */,
+			);
+			path = Working;
+			sourceTree = "<group>";
+		};
+		0AD8588323CAE1A90052E8AC /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8588623CAE1A90052E8AC /* McsDoctorClinicInfoApi.swift */,
+				0A6DB8A8240B929200951430 /* McsDoctorDetailApi.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0AD8588D23CAE1A90052E8AC /* Clinic */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8588E23CAE1A90052E8AC /* McsDoctorClinicDetailApi.swift */,
+			);
+			path = Clinic;
+			sourceTree = "<group>";
+		};
+		0AD8588F23CAE1A90052E8AC /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8589023CAE1A90052E8AC /* McsDoctorListPackageApi.swift */,
+				0AD8588223CAE1A90052E8AC /* McsDoctorPackageDetailApi.swift */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		0AD858AE23CAE1A90052E8AC /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				0AD858B023CAE1A90052E8AC /* McsPatientAppointmentCreateApi.swift */,
+				0AD858AF23CAE1A90052E8AC /* McsPatientAppointmentDetailApi.swift */,
+				0AD858B123CAE1A90052E8AC /* McsPatientCancelAppointmentApi.swift */,
+				0AD858B223CAE1A90052E8AC /* McsPatientListAppointmentApi.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		0AD858B323CAE1A90052E8AC /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				0AD858B723CAE1A90052E8AC /* McsPatientDoctorDetailApi.swift */,
+				0AD858B823CAE1A90052E8AC /* McsPatientListBookingTimeApi.swift */,
+				0AD858B623CAE1A90052E8AC /* McsPatientListDoctorApi.swift */,
+				0A3F113E23F80C19001AFF84 /* McsPatientListSpecialtyApi.swift */,
+				0AD858B523CAE1A90052E8AC /* McsPatientListWorkingTimeApi.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		0AD858B923CAE1A90052E8AC /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				0AD858BA23CAE1A90052E8AC /* McsPatientHealthDetailApi.swift */,
+				0AD858BB23CAE1A90052E8AC /* Allergy */,
+				0AD858C723CAE1A90052E8AC /* Medication */,
+				0AD858C123CAE1A90052E8AC /* Surgery */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		0AD858BB23CAE1A90052E8AC /* Allergy */ = {
+			isa = PBXGroup;
+			children = (
+				0AD858BC23CAE1A90052E8AC /* McsPatientAllergyCreateApi.swift */,
+				0AD858BE23CAE1A90052E8AC /* McsPatientAllergyDeleteApi.swift */,
+				0AD858C023CAE1A90052E8AC /* McsPatientAllergyUpdateApi.swift */,
+			);
+			path = Allergy;
+			sourceTree = "<group>";
+		};
+		0AD858C123CAE1A90052E8AC /* Surgery */ = {
+			isa = PBXGroup;
+			children = (
+				0AD858C423CAE1A90052E8AC /* McsPatientSurgeryCreateApi.swift */,
+				0AD858C323CAE1A90052E8AC /* McsPatientSurgeryDeleteApi.swift */,
+				0AD858C623CAE1A90052E8AC /* McsPatientSurgeryUpdateApi.swift */,
+			);
+			path = Surgery;
+			sourceTree = "<group>";
+		};
+		0AD858C723CAE1A90052E8AC /* Medication */ = {
+			isa = PBXGroup;
+			children = (
+				0AD858CA23CAE1A90052E8AC /* McsPatientMedicationUpdateApi.swift */,
+			);
+			path = Medication;
+			sourceTree = "<group>";
+		};
+		8E4927792411FCDD003221B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E49277A2411FCDD003221B3 /* MDModelExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E57F86224090A980017DB59 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				8E57F86824090A980017DB59 /* MDLoginViewController.swift */,
+				8E57F86A24090A980017DB59 /* MDResetPasswordRequestViewController.swift */,
+				8E57F86924090A980017DB59 /* MDResetPasswordViewController.swift */,
+				8E57F86424090A980017DB59 /* MDUpdatePasswordViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		8E57F87A24090E8A0017DB59 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				8E57F87F24090EB60017DB59 /* MDAppointmentViewController.swift */,
+				8E57F88024090EB60017DB59 /* MDListAppointmentViewController.swift */,
+				0A5EE77A241BFAB700B556A2 /* MDPrescriptionViewController.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		8E5F1CC323F532D100BDA085 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0AD65C8423DEAECB00772455 /* McsPatientActivateApi.swift */,
+				0AD65C8323DEAECB00772455 /* McsPatientActivateRequestApi.swift */,
+				0AA7D5F323EC5E0E009CFC19 /* McsPatientCreateApi.swift */,
+				0AD858CF23CAE1A90052E8AC /* McsPatientDetailApi.swift */,
+				0A41E40623F2F02100F4A209 /* McsPatientPartialUpdateApi.swift */,
+				0A7A0E5423DDC2E20036D2AE /* McsPatientRegisterApi.swift */,
+				0A41E40723F2F02100F4A209 /* McsPatientUpdateApi.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		8E8F3C8E23E9756E003032C1 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F1CC323F532D100BDA085 /* Account */,
+				0AD858AE23CAE1A90052E8AC /* Appointment */,
+				0AD858B323CAE1A90052E8AC /* Booking */,
+				0AD858B923CAE1A90052E8AC /* Health */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		8ED7EE0823C861C4001E0A53 /* TextFieldController */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8DEE32664C3A0004E03C4 /* McsMultilineTextField.swift */,
+				8ED7EE0923C861C4001E0A53 /* McsTextField.swift */,
+				0A39996E23E2C48400F2E7A9 /* McsTextInputControllerAddress.swift */,
+				8E66BEE924062A2D0022ADF8 /* McsTextInputControllerAllergy.swift */,
+				0A39997123E2C6FD00F2E7A9 /* McsTextInputControllerCity.swift */,
+				0AB19299241BCABE000FA615 /* McsTextInputControllerClearableTime.swift */,
+				0AD65C8923DED01600772455 /* McsTextInputControllerCode.swift */,
+				8ED7EE0A23C861C4001E0A53 /* McsTextInputControllerCustomKeyboard.swift */,
+				0A08342D23F6EEE1002155D9 /* McsTextInputControllerDate.swift */,
+				8ED7EE0D23C861C4001E0A53 /* McsTextInputControllerDefault.swift */,
+				8ED7EE0E23C861C4001E0A53 /* McsTextInputControllerEmail.swift */,
+				0A37024223D41B26005F89A6 /* McsTextInputControllerEmailPhone.swift */,
+				0A08343623F6F58F002155D9 /* McsTextInputControllerMonthYear.swift */,
+				8ED7EE0C23C861C4001E0A53 /* McsTextInputControllerName.swift */,
+				0A08343023F6EF3E002155D9 /* McsTextInputControllerNote.swift */,
+				8ED7EE1123C861C4001E0A53 /* McsTextInputControllerPassword.swift */,
+				8ED7EE0F23C861C4001E0A53 /* McsTextInputControllerPhone.swift */,
+				0AEFAB7723DF439200C771FF /* McsTextInputControllerRePassword.swift */,
+				0A39997423E2C70600F2E7A9 /* McsTextInputControllerState.swift */,
+				8E66BEEC24062A4C0022ADF8 /* McsTextInputControllerSurgery.swift */,
+				0A0026612400173D0056FFA5 /* McsTextInputControllerSymptom.swift */,
+				0AFC9C862419CFEB00A7AFC7 /* McsTextInputControllerSymptomWhen.swift */,
+			);
+			path = TextFieldController;
+			sourceTree = "<group>";
+		};
+		8EFB4AF223E9803F00F70272 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8582A23CAE1A90052E8AC /* McsAccount.swift */,
+				0AD8582E23CAE1A90052E8AC /* McsAddress.swift */,
+				0ADD589E2402079A002B5FF1 /* McsAppointment.swift */,
+				0ADD589F2402079A002B5FF1 /* McsAptStatus.swift */,
+				0AD8582823CAE1A90052E8AC /* McsBase.swift */,
+				0AD8585723CAE1A90052E8AC /* McsCertificate.swift */,
+				0AC38BD423E5EA4700714CD7 /* McsCity.swift */,
+				0AC38BDA23E5EA9000714CD7 /* McsCountry.swift */,
+				0AB27813240FFA890065FEB8 /* McsDateRange.swift */,
+				0A9A1C8A23D3527E004BC069 /* McsEnum.swift */,
+				0AD8584E23CAE1A90052E8AC /* McsPatient.swift */,
+				0AD8582B23CAE1A90052E8AC /* McsMappable.swift */,
+				0AD8584623CAE1A90052E8AC /* McsPrice.swift */,
+				0AD8584223CAE1A90052E8AC /* McsProfile.swift */,
+				0AC38BDD23E5EBBE00714CD7 /* McsSpecialty.swift */,
+				0AC38BD523E5EA4700714CD7 /* McsState.swift */,
+				0AB2780F240FF9E80065FEB8 /* McsTimeRange.swift */,
+				0AD8582D23CAE1A90052E8AC /* McsValue.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8EFB4AF323E9804B00F70272 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8585023CAE1A90052E8AC /* McsAllergy.swift */,
+				0AD8584F23CAE1A90052E8AC /* McsMedication.swift */,
+				0AD8584C23CAE1A90052E8AC /* McsSurgery.swift */,
+				0AD8584423CAE1A90052E8AC /* McsSymptom.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		A24CDD333AF294A91FC2E1A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE412841219C67A878B7F67F /* Pods_doctor.framework */,
+				90C1E1E0172126295A42CC06 /* Pods_patient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E04715B178872CE9FB6886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE493EA1C1B8649CDE56D30B /* Pods-doctor.debug.xcconfig */,
+				6021B88AE58DA1ADB333913C /* Pods-doctor.release.xcconfig */,
+				DF28E136A3EF6602D744D18F /* Pods-patient.debug.xcconfig */,
+				49D7093DBBB9B5110E2C2B8A /* Pods-patient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A365A6D20BF9CBC0005049A /* doctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A365A7820BF9CBC0005049A /* Build configuration list for PBXNativeTarget "doctor" */;
+			buildPhases = (
+				7F1118D5934ED260A1708AFF /* [CP] Check Pods Manifest.lock */,
+				0A365A6F20BF9CBC0005049A /* Sources */,
+				0A365A7120BF9CBC0005049A /* Frameworks */,
+				0A365A7420BF9CBC0005049A /* Resources */,
+				0A365A7620BF9CBC0005049A /* Embed Frameworks */,
+				C656FB03A0AFE2150723F263 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doctor;
+			productName = mcs;
+			productReference = 0A365A7B20BF9CBC0005049A /* doctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A409FB720AD8499005E7799 /* patient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A409FCA20AD84A3005E7799 /* Build configuration list for PBXNativeTarget "patient" */;
+			buildPhases = (
+				D3101B053A31AFE78BA9573D /* [CP] Check Pods Manifest.lock */,
+				0A409FB420AD8499005E7799 /* Sources */,
+				0A409FB520AD8499005E7799 /* Frameworks */,
+				0A409FB620AD8499005E7799 /* Resources */,
+				0A9D51C820BE657E007A7D45 /* Embed Frameworks */,
+				C512E3B09703D63BA87D8713 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = patient;
+			productName = mcs;
+			productReference = 0A409FB820AD849A005E7799 /* patient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A409FB020AD8499005E7799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = cloud273;
+				TargetAttributes = {
+					0A365A6D20BF9CBC0005049A = {
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0A409FB720AD8499005E7799 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0A409FB320AD8499005E7799 /* Build configuration list for PBXProject "mcs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = 0A409FAF20AD8499005E7799;
+			productRefGroup = 0A409FB920AD849A005E7799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A409FB720AD8499005E7799 /* patient */,
+				0A365A6D20BF9CBC0005049A /* doctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A365A7420BF9CBC0005049A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A73B1A521AAC1AB006A3F15 /* McsTextEmptyMessageCell.xib in Resources */,
+				0A347AEA25E804BE00964345 /* InfoPlist.strings in Resources */,
+				0A73B17E21AAC1AB006A3F15 /* McsCheckCell.xib in Resources */,
+				0AFCB84223E71C2D006F682E /* country.json in Resources */,
+				0A6DB8AE240BB2A900951430 /* MDDoctorCell.xib in Resources */,
+				0A73B15A21AAC1AB006A3F15 /* Other.storyboard in Resources */,
+				0A73B19321AAC1AB006A3F15 /* McsTextAddRightCell.xib in Resources */,
+				0A73B19921AAC1AB006A3F15 /* McsTextCell.xib in Resources */,
+				0A36816E228AF76900DD20CA /* localization_en.json in Resources */,
+				0A368168228AF76900DD20CA /* localization_vi.json in Resources */,
+				0AFCB84623E71C2D006F682E /* specialty.json in Resources */,
+				8E57F85B2409098D0017DB59 /* Main.storyboard in Resources */,
+				8E78F4D323CF1C6F0017789A /* color.json in Resources */,
+				0A5C61C9229E9F4100978955 /* Account.storyboard in Resources */,
+				0A754113212C49B70060A100 /* MDAppointmentCell.xib in Resources */,
+				0A73B0A321AAC1AA006A3F15 /* Common.xcassets in Resources */,
+				0A75410D212C49B70060A100 /* LaunchScreen.storyboard in Resources */,
+				0A73B19021AAC1AB006A3F15 /* McsTextAddCell.xib in Resources */,
+				0A0A724A217C2C690079ABFA /* MDPackageCell.xib in Resources */,
+				0A73B19F21AAC1AB006A3F15 /* McsTextDetailCell.xib in Resources */,
+				0A73B1A221AAC1AB006A3F15 /* McsTextDetailRightCell.xib in Resources */,
+				8E78F4D123CF1C6F0017789A /* font.json in Resources */,
+				0A75410C212C49B70060A100 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A409FB620AD8499005E7799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7542F9212C4A5C0060A100 /* MPDoctorCell.xib in Resources */,
+				0A347AE425E8045400964345 /* InfoPlist.strings in Resources */,
+				0A73B19221AAC1AB006A3F15 /* McsTextAddRightCell.xib in Resources */,
+				0A73B1A121AAC1AB006A3F15 /* McsTextDetailRightCell.xib in Resources */,
+				0A73B1A421AAC1AB006A3F15 /* McsTextEmptyMessageCell.xib in Resources */,
+				0A7542FB212C4A5C0060A100 /* MPAppointmentCell.xib in Resources */,
+				0A73B0A221AAC1AA006A3F15 /* Common.xcassets in Resources */,
+				0A73B19E21AAC1AB006A3F15 /* McsTextDetailCell.xib in Resources */,
+				0A73B17D21AAC1AB006A3F15 /* McsCheckCell.xib in Resources */,
+				8E78F4D223CF1C6F0017789A /* color.json in Resources */,
+				0A7542F4212C4A5C0060A100 /* Main.storyboard in Resources */,
+				0AFCB84523E71C2D006F682E /* specialty.json in Resources */,
+				0A73B18F21AAC1AB006A3F15 /* McsTextAddCell.xib in Resources */,
+				0A73B15921AAC1AB006A3F15 /* Other.storyboard in Resources */,
+				0A73B19821AAC1AB006A3F15 /* McsTextCell.xib in Resources */,
+				0AFCB84123E71C2D006F682E /* country.json in Resources */,
+				0A73B17421AAC1AB006A3F15 /* MPPatientCell.xib in Resources */,
+				0A7542F3212C4A5C0060A100 /* LaunchScreen.storyboard in Resources */,
+				0A368167228AF76900DD20CA /* localization_vi.json in Resources */,
+				0A7542F2212C4A5C0060A100 /* Assets.xcassets in Resources */,
+				0A5C61EE229EA7F600978955 /* Account.storyboard in Resources */,
+				0A36816D228AF76900DD20CA /* localization_en.json in Resources */,
+				8E78F4D023CF1C6F0017789A /* font.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F1118D5934ED260A1708AFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C512E3B09703D63BA87D8713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-patient/Pods-patient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-patient/Pods-patient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-patient/Pods-patient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C656FB03A0AFE2150723F263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doctor/Pods-doctor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doctor/Pods-doctor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-doctor/Pods-doctor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3101B053A31AFE78BA9573D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-patient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A365A6F20BF9CBC0005049A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD8595823CAE1A90052E8AC /* McsMedication.swift in Sources */,
+				0A5EE77B241BFAB800B556A2 /* MDPrescriptionViewController.swift in Sources */,
+				0A9A1C7923D34128004BC069 /* McsRequestApi.swift in Sources */,
+				0AD8596E23CAE1A90052E8AC /* McsClinic.swift in Sources */,
+				8E886A2323ED4758007E3A0C /* UISegmentControl_Extension.swift in Sources */,
+				0A39997323E2C6FD00F2E7A9 /* McsTextInputControllerCity.swift in Sources */,
+				0AFC13F22430663F004F7D9C /* McsBackendConstant.swift in Sources */,
+				0A9A1C7C23D34132004BC069 /* McsUserRequestApi.swift in Sources */,
+				0A7C678B241F371100D74ADE /* McsSaveApi.swift in Sources */,
+				0A08342F23F6EEE1002155D9 /* McsTextInputControllerDate.swift in Sources */,
+				0A9A1C8023D34549004BC069 /* McsLog.swift in Sources */,
+				0A39997623E2C70600F2E7A9 /* McsTextInputControllerState.swift in Sources */,
+				0A248E66241137B00034CCEA /* MDDoctorInfoCell.swift in Sources */,
+				0AD8596423CAE1A90052E8AC /* McsClinicCert.swift in Sources */,
+				0AD858FE23CAE1A90052E8AC /* ApiTransformer.swift in Sources */,
+				0A08343823F6F58F002155D9 /* McsTextInputControllerMonthYear.swift in Sources */,
+				0A37024423D41B26005F89A6 /* McsTextInputControllerEmailPhone.swift in Sources */,
+				0A6DB8AA240B929200951430 /* McsDoctorDetailApi.swift in Sources */,
+				0AD85A2823CAE1A90052E8AC /* McsAccountUpdatePasswordApi.swift in Sources */,
+				8E57F87824090A980017DB59 /* MDResetPasswordRequestViewController.swift in Sources */,
+				8E66BEEB24062A2E0022ADF8 /* McsTextInputControllerAllergy.swift in Sources */,
+				0A73B17821AAC1AB006A3F15 /* MDCertificateCell.swift in Sources */,
+				0AEFAB7923DF439200C771FF /* McsTextInputControllerRePassword.swift in Sources */,
+				0A73B1CF21AAC1AB006A3F15 /* McsTableViewController.swift in Sources */,
+				0AD8596023CAE1A90052E8AC /* McsDoctorCert.swift in Sources */,
+				0A73B0BB21AAC1AB006A3F15 /* McsBaseDatabase.swift in Sources */,
+				0AD8594823CAE1A90052E8AC /* McsPrice.swift in Sources */,
+				0AFD580624040E83004DAE00 /* McsCreateApi.swift in Sources */,
+				8ED7EE2423C861C4001E0A53 /* McsTextInputControllerEmail.swift in Sources */,
+				0AD8591023CAE1A90052E8AC /* McsBase.swift in Sources */,
+				0AFCB83D23E71547006F682E /* McsAppConfiguration.swift in Sources */,
+				0A47096C23E86E85004FA37B /* ModelExtension.swift in Sources */,
+				0AC45E1C23F055EF00E182A0 /* McsUploadImageApi.swift in Sources */,
+				0AC38BD923E5EA4700714CD7 /* McsState.swift in Sources */,
+				0AC38BD723E5EA4700714CD7 /* McsCity.swift in Sources */,
+				0A75410B212C49B70060A100 /* McsDatabase.swift in Sources */,
+				8E57F87624090A980017DB59 /* MDLoginViewController.swift in Sources */,
+				0ADDD29723D2268300B76668 /* McsFormViewController.swift in Sources */,
+				0AFD580B24040E89004DAE00 /* McsUpdateApi.swift in Sources */,
+				0AD859A023CAE1A90052E8AC /* McsDoctorListAppointmentApi.swift in Sources */,
+				0A73B19621AAC1AB006A3F15 /* McsTextCell.swift in Sources */,
+				0A9A1C8C23D3527E004BC069 /* McsEnum.swift in Sources */,
+				0AD8595223CAE1A90052E8AC /* McsSurgery.swift in Sources */,
+				0A73B16621AAC1AB006A3F15 /* Date_Extension.swift in Sources */,
+				0A0026632400173D0056FFA5 /* McsTextInputControllerSymptom.swift in Sources */,
+				0AD8596223CAE1A90052E8AC /* McsDoctor.swift in Sources */,
+				0A621E7D2417FADD00FE7CCD /* MDHistoryAppointmentViewController.swift in Sources */,
+				8E57F88124090EB60017DB59 /* MDAppointmentViewController.swift in Sources */,
+				0AD859AA23CAE1A90052E8AC /* McsDoctorPackageDetailApi.swift in Sources */,
+				0A36AF1C21B76D9300EFE956 /* UIImageView_Extension.swift in Sources */,
+				8E57F8592408D5840017DB59 /* MDMainTabController.swift in Sources */,
+				0ADD58A32402079A002B5FF1 /* McsAptStatus.swift in Sources */,
+				0A73B1DE21AAC1AC006A3F15 /* McsCertificateViewController.swift in Sources */,
+				0A73B1DB21AAC1AC006A3F15 /* McsRefreshAccountViewController.swift in Sources */,
+				0AB27811240FF9E80065FEB8 /* McsTimeRange.swift in Sources */,
+				0AFC9C8A2419D0F500A7AFC7 /* McsDoctorListWorkingTimeApi.swift in Sources */,
+				0AD8598223CAE1A90052E8AC /* McsAccountResetPasswordRequestApi.swift in Sources */,
+				0AD859A423CAE1A90052E8AC /* McsDoctorAppointmentDetailApi.swift in Sources */,
+				8ED7EE1523C861C4001E0A53 /* McsTextField.swift in Sources */,
+				0A08343223F6EF3E002155D9 /* McsTextInputControllerNote.swift in Sources */,
+				8ED7EE2723C861C4001E0A53 /* McsTextInputControllerPhone.swift in Sources */,
+				0A73B1D521AAC1AB006A3F15 /* McsBaseCalendarViewController.swift in Sources */,
+				0A73B16C21AAC1AB006A3F15 /* ToString_Extension.swift in Sources */,
+				8ED7EE1823C861C4001E0A53 /* McsTextInputControllerCustomKeyboard.swift in Sources */,
+				0AD8591A23CAE1A90052E8AC /* McsAddress.swift in Sources */,
+				0AD8596623CAE1A90052E8AC /* McsCertificate.swift in Sources */,
+				0AD8594423CAE1A90052E8AC /* McsSymptom.swift in Sources */,
+				0AD858FC23CAE1A90052E8AC /* ApiDateExtention.swift in Sources */,
+				0A754111212C49B70060A100 /* MDAppointmentCell.swift in Sources */,
+				0AA8DEE52664C3A0004E03C4 /* McsMultilineTextField.swift in Sources */,
+				8ED7EE2D23C861C4001E0A53 /* McsTextInputControllerPassword.swift in Sources */,
+				0A0A8256213D471100880DAA /* MDClinicViewController.swift in Sources */,
+				0A73B0B821AAC1AB006A3F15 /* McsConstant.swift in Sources */,
+				0AD65C8B23DED01600772455 /* McsTextInputControllerCode.swift in Sources */,
+				0A73B0A021AAC1AA006A3F15 /* AppDelegate.swift in Sources */,
+				0AFC9C882419CFF200A7AFC7 /* McsTextInputControllerSymptomWhen.swift in Sources */,
+				0A0A825B213D76F100880DAA /* MDDoctorViewController.swift in Sources */,
+				0AC38BE023E5EBBE00714CD7 /* McsSpecialty.swift in Sources */,
+				8EB9089F24120A9C0094FC5B /* McsAppointmentStatusUpdateApi.swift in Sources */,
+				0AB2780E240FF9630065FEB8 /* McsSchedule.swift in Sources */,
+				0ADD58A12402079A002B5FF1 /* McsAppointment.swift in Sources */,
+				0A73B1D221AAC1AB006A3F15 /* McsViewController.swift in Sources */,
+				0A37024723D424CE005F89A6 /* String_PhoneExtension.swift in Sources */,
+				8E6FD84A23F292A500773D39 /* McsCell.swift in Sources */,
+				0AD8598C23CAE1A90052E8AC /* McsAccountDeviceSetApi.swift in Sources */,
+				0A73B16921AAC1AB006A3F15 /* McsUtility.swift in Sources */,
+				0AE399E42410034F00A54CD2 /* McsWorkingDay.swift in Sources */,
+				0AD8591423CAE1A90052E8AC /* McsAccount.swift in Sources */,
+				0A522DB021B1900300B2E9C1 /* McsImagePresentViewController.swift in Sources */,
+				0A4E601F23D356BE00BA6454 /* McsAccountLoginApi.swift in Sources */,
+				8E286CC12410FFB10049B163 /* MDTimeCell.swift in Sources */,
+				8E66BEEE24062A4C0022ADF8 /* McsTextInputControllerSurgery.swift in Sources */,
+				8E57F87724090A980017DB59 /* MDResetPasswordViewController.swift in Sources */,
+				0AC38BDC23E5EA9000714CD7 /* McsCountry.swift in Sources */,
+				8E88823C240651B800BCC06D /* McsConfigReasonApi.swift in Sources */,
+				0AD8594023CAE1A90052E8AC /* McsProfile.swift in Sources */,
+				8E57F87224090A980017DB59 /* MDUpdatePasswordViewController.swift in Sources */,
+				0AD8596A23CAE1A90052E8AC /* McsPackage.swift in Sources */,
+				8E690302240FBCAB0063E678 /* MDConstant.swift in Sources */,
+				0AC38BD323E5DA4F00714CD7 /* McsConfigApi.swift in Sources */,
+				0AD8595623CAE1A90052E8AC /* McsPatient.swift in Sources */,
+				8EFB4AEE23E97C2000F70272 /* McsProgressHUD.swift in Sources */,
+				0A73B1C321AAC1AB006A3F15 /* McsNavigationController.swift in Sources */,
+				8ED7EE2123C861C4001E0A53 /* McsTextInputControllerDefault.swift in Sources */,
+				0AFD580E240413DE004DAE00 /* McsPartialUpdateApi.swift in Sources */,
+				0AD8591623CAE1A90052E8AC /* McsMappable.swift in Sources */,
+				0A75414B212C49B70060A100 /* MDSettingViewController.swift in Sources */,
+				0AAE7B3222D247C900F51267 /* McsWebViewController.swift in Sources */,
+				0A0A724B217C2C690079ABFA /* MDPackageCell.swift in Sources */,
+				0A73B19C21AAC1AB006A3F15 /* McsTextDetailCell.swift in Sources */,
+				8E49277B2411FCDD003221B3 /* MDModelExtension.swift in Sources */,
+				0AD859C023CAE1A90052E8AC /* McsDoctorListPackageApi.swift in Sources */,
+				0AD859BE23CAE1A90052E8AC /* McsDoctorClinicDetailApi.swift in Sources */,
+				0AB27815240FFA890065FEB8 /* McsDateRange.swift in Sources */,
+				0A73B17B21AAC1AB006A3F15 /* McsCheckCell.swift in Sources */,
+				0AFD580824040E83004DAE00 /* McsDeleteApi.swift in Sources */,
+				8ED7EE1E23C861C4001E0A53 /* McsTextInputControllerName.swift in Sources */,
+				0AD859A623CAE1A90052E8AC /* McsDoctorBeginAppointmentApi.swift in Sources */,
+				0AD8595A23CAE1A90052E8AC /* McsAllergy.swift in Sources */,
+				0AB1929B241BCABE000FA615 /* McsTextInputControllerClearableTime.swift in Sources */,
+				0AF5C865240FF0C40007CBBE /* MDPackageDetailViewController.swift in Sources */,
+				0A6DB8AD240BB2A900951430 /* MDDoctorCell.swift in Sources */,
+				0A2B8B882137E02D00BA2826 /* MDScheduleViewController.swift in Sources */,
+				0A9DE52C218BEDEF0088F2A0 /* MDHistoryListAppointmentViewController.swift in Sources */,
+				0AD8597623CAE1A90052E8AC /* McsAccountResetPasswordApi.swift in Sources */,
+				0A6DB8A6240B852800951430 /* McsDoctorClinicInfoApi.swift in Sources */,
+				8E57F88224090EB60017DB59 /* MDListAppointmentViewController.swift in Sources */,
+				0A859DC82179DF2900B48F15 /* MDListPackageViewController.swift in Sources */,
+				0A39997023E2C48400F2E7A9 /* McsTextInputControllerAddress.swift in Sources */,
+				0AD8596C23CAE1A90052E8AC /* McsWorkingTime.swift in Sources */,
+				0AD8591823CAE1A90052E8AC /* McsValue.swift in Sources */,
+				0AA49F4E241806C300AF3AB2 /* McsApnsService.swift in Sources */,
+				0AC45E1F23F0565600E182A0 /* McsRequestFormApi.swift in Sources */,
+				0AD859A823CAE1A90052E8AC /* McsDoctorFinishAppointmentApi.swift in Sources */,
+				0A7A0E5A23DDC43D0036D2AE /* ApiAlertExtention.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A409FB420AD8499005E7799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFD580724040E83004DAE00 /* McsDeleteApi.swift in Sources */,
+				0AA49F4D241806C300AF3AB2 /* McsApnsService.swift in Sources */,
+				0A73B19B21AAC1AB006A3F15 /* McsTextDetailCell.swift in Sources */,
+				8E66BEED24062A4C0022ADF8 /* McsTextInputControllerSurgery.swift in Sources */,
+				0A73B1A721AAC1AB006A3F15 /* MPDoctorInfoCell.swift in Sources */,
+				0A08342E23F6EEE1002155D9 /* McsTextInputControllerDate.swift in Sources */,
+				0AD859FB23CAE1A90052E8AC /* McsPatientListDoctorApi.swift in Sources */,
+				0A47571E213A427200010049 /* MPBookingSpecialtyViewController.swift in Sources */,
+				0ADD58A22402079A002B5FF1 /* McsAptStatus.swift in Sources */,
+				0AD85A2323CAE1A90052E8AC /* McsPatientDetailApi.swift in Sources */,
+				0A73B09F21AAC1AA006A3F15 /* AppDelegate.swift in Sources */,
+				0AEFAB7823DF439200C771FF /* McsTextInputControllerRePassword.swift in Sources */,
+				0AB1929A241BCABE000FA615 /* McsTextInputControllerClearableTime.swift in Sources */,
+				0AFC13F12430663F004F7D9C /* McsBackendConstant.swift in Sources */,
+				0AD85A1523CAE1A90052E8AC /* McsPatientSurgeryUpdateApi.swift in Sources */,
+				0AC38BDF23E5EBBE00714CD7 /* McsSpecialty.swift in Sources */,
+				0A754328212C4A5C0060A100 /* MPHealthViewController.swift in Sources */,
+				0AD8590F23CAE1A90052E8AC /* McsBase.swift in Sources */,
+				0A754323212C4A5C0060A100 /* MPBookingListDoctorViewController.swift in Sources */,
+				0A39997523E2C70600F2E7A9 /* McsTextInputControllerState.swift in Sources */,
+				0AD8595723CAE1A90052E8AC /* McsMedication.swift in Sources */,
+				8E88823B240651B800BCC06D /* McsConfigReasonApi.swift in Sources */,
+				0A7A0E5923DDC43D0036D2AE /* ApiAlertExtention.swift in Sources */,
+				0A73B19521AAC1AB006A3F15 /* McsTextCell.swift in Sources */,
+				0AD8598123CAE1A90052E8AC /* McsAccountResetPasswordRequestApi.swift in Sources */,
+				0AD8596123CAE1A90052E8AC /* McsDoctor.swift in Sources */,
+				0AD65C8523DEAECB00772455 /* McsPatientActivateRequestApi.swift in Sources */,
+				8ED7EE2C23C861C4001E0A53 /* McsTextInputControllerPassword.swift in Sources */,
+				8ED7EE2323C861C4001E0A53 /* McsTextInputControllerEmail.swift in Sources */,
+				0A73B1D421AAC1AB006A3F15 /* McsBaseCalendarViewController.swift in Sources */,
+				0A39997223E2C6FD00F2E7A9 /* McsTextInputControllerCity.swift in Sources */,
+				0A5C61E1229EA5C200978955 /* MPLoginViewController.swift in Sources */,
+				0AD8595923CAE1A90052E8AC /* McsAllergy.swift in Sources */,
+				0ADD58A02402079A002B5FF1 /* McsAppointment.swift in Sources */,
+				0A754321212C4A5C0060A100 /* MPListAppointmentViewController.swift in Sources */,
+				0A754326212C4A5C0060A100 /* MPBookingSymptomViewController.swift in Sources */,
+				0AD8596B23CAE1A90052E8AC /* McsWorkingTime.swift in Sources */,
+				0AD859FD23CAE1A90052E8AC /* McsPatientDoctorDetailApi.swift in Sources */,
+				0AD8591523CAE1A90052E8AC /* McsMappable.swift in Sources */,
+				0AD859F923CAE1A90052E8AC /* McsPatientListWorkingTimeApi.swift in Sources */,
+				0A08343123F6EF3E002155D9 /* McsTextInputControllerNote.swift in Sources */,
+				0A248E69241138A50034CCEA /* MPCertificateCell.swift in Sources */,
+				0AD859F523CAE1A90052E8AC /* McsPatientListAppointmentApi.swift in Sources */,
+				0A41E40823F2F02100F4A209 /* McsPatientPartialUpdateApi.swift in Sources */,
+				0A73B17121AAC1AB006A3F15 /* MPPatientCell.swift in Sources */,
+				0AD8594723CAE1A90052E8AC /* McsPrice.swift in Sources */,
+				0AD8591723CAE1A90052E8AC /* McsValue.swift in Sources */,
+				0AC45E1B23F055EF00E182A0 /* McsUploadImageApi.swift in Sources */,
+				0A41E40A23F2F02100F4A209 /* McsPatientUpdateApi.swift in Sources */,
+				0A9A1C7B23D34132004BC069 /* McsUserRequestApi.swift in Sources */,
+				0AB27812240FF9EB0065FEB8 /* McsSchedule.swift in Sources */,
+				0AD8596923CAE1A90052E8AC /* McsPackage.swift in Sources */,
+				0AFCB83C23E71547006F682E /* McsAppConfiguration.swift in Sources */,
+				8EB9089E24120A9C0094FC5B /* McsAppointmentStatusUpdateApi.swift in Sources */,
+				0AE399E32410034F00A54CD2 /* McsWorkingDay.swift in Sources */,
+				8EFB4AED23E97C2000F70272 /* McsProgressHUD.swift in Sources */,
+				0A4E601E23D356BE00BA6454 /* McsAccountLoginApi.swift in Sources */,
+				0A5C61E8229EA5C200978955 /* MPResetPasswordViewController.swift in Sources */,
+				8ED7EE2623C861C4001E0A53 /* McsTextInputControllerPhone.swift in Sources */,
+				0A08342823F6E560002155D9 /* MPAllergyViewController.swift in Sources */,
+				0AFD580524040E83004DAE00 /* McsCreateApi.swift in Sources */,
+				0A73B1CE21AAC1AB006A3F15 /* McsTableViewController.swift in Sources */,
+				0A73B1DD21AAC1AC006A3F15 /* McsCertificateViewController.swift in Sources */,
+				0A73B16B21AAC1AB006A3F15 /* ToString_Extension.swift in Sources */,
+				0A0026622400173D0056FFA5 /* McsTextInputControllerSymptom.swift in Sources */,
+				0AFD580A24040E89004DAE00 /* McsUpdateApi.swift in Sources */,
+				0A73B1C221AAC1AB006A3F15 /* McsNavigationController.swift in Sources */,
+				0A0E5FE8241A7CFD00BDC632 /* MPModelExtension.swift in Sources */,
+				0AD8593F23CAE1A90052E8AC /* McsProfile.swift in Sources */,
+				0A7542F8212C4A5C0060A100 /* MPAppointmentCell.swift in Sources */,
+				0A754327212C4A5C0060A100 /* MPBookingSummaryViewController.swift in Sources */,
+				0AB27810240FF9E80065FEB8 /* McsTimeRange.swift in Sources */,
+				0A754333212C4A5C0060A100 /* MPMainTabController.swift in Sources */,
+				0AD65C8723DEAECB00772455 /* McsPatientActivateApi.swift in Sources */,
+				0AD859F123CAE1A90052E8AC /* McsPatientAppointmentCreateApi.swift in Sources */,
+				0A754324212C4A5C0060A100 /* MPBookingTimeViewController.swift in Sources */,
+				0A73B17A21AAC1AB006A3F15 /* McsCheckCell.swift in Sources */,
+				8ED7EE1723C861C4001E0A53 /* McsTextInputControllerCustomKeyboard.swift in Sources */,
+				0A3F113F23F80C19001AFF84 /* McsPatientListSpecialtyApi.swift in Sources */,
+				0AD859FF23CAE1A90052E8AC /* McsPatientListBookingTimeApi.swift in Sources */,
+				0A73B0BA21AAC1AB006A3F15 /* McsBaseDatabase.swift in Sources */,
+				0A9A1C7823D34128004BC069 /* McsRequestApi.swift in Sources */,
+				0AD8596D23CAE1A90052E8AC /* McsClinic.swift in Sources */,
+				0AAE7B3122D247C900F51267 /* McsWebViewController.swift in Sources */,
+				0A5C61E0229EA5C200978955 /* MPUpdateAccountViewController.swift in Sources */,
+				0AD858FD23CAE1A90052E8AC /* ApiTransformer.swift in Sources */,
+				0AD8595523CAE1A90052E8AC /* McsPatient.swift in Sources */,
+				0A39996F23E2C48400F2E7A9 /* McsTextInputControllerAddress.swift in Sources */,
+				0AD8596523CAE1A90052E8AC /* McsCertificate.swift in Sources */,
+				0AA7D5F423EC5E0E009CFC19 /* McsPatientCreateApi.swift in Sources */,
+				0A5C61DD229EA5C200978955 /* MPActivateRequestViewController.swift in Sources */,
+				0A522DAF21B1900300B2E9C1 /* McsImagePresentViewController.swift in Sources */,
+				0A754322212C4A5C0060A100 /* MPBookingDoctorViewController.swift in Sources */,
+				8E6FD84923F292A500773D39 /* McsCell.swift in Sources */,
+				0A73B1DA21AAC1AC006A3F15 /* McsRefreshAccountViewController.swift in Sources */,
+				0A7A0E5523DDC2E20036D2AE /* McsPatientRegisterApi.swift in Sources */,
+				0AB27814240FFA890065FEB8 /* McsDateRange.swift in Sources */,
+				0AC38BDB23E5EA9000714CD7 /* McsCountry.swift in Sources */,
+				8E66BEEA24062A2E0022ADF8 /* McsTextInputControllerAllergy.swift in Sources */,
+				0AD85A0B23CAE1A90052E8AC /* McsPatientAllergyUpdateApi.swift in Sources */,
+				0AD8591923CAE1A90052E8AC /* McsAddress.swift in Sources */,
+				0A754332212C4A5C0060A100 /* MPSettingViewController.swift in Sources */,
+				0A7542F7212C4A5C0060A100 /* MPDoctorCell.swift in Sources */,
+				0AD8595123CAE1A90052E8AC /* McsSurgery.swift in Sources */,
+				0AD85A0123CAE1A90052E8AC /* McsPatientHealthDetailApi.swift in Sources */,
+				0A754320212C4A5C0060A100 /* MPAppointmentViewController.swift in Sources */,
+				0AD85A0723CAE1A90052E8AC /* McsPatientAllergyDeleteApi.swift in Sources */,
+				0AD85A1B23CAE1A90052E8AC /* McsPatientMedicationUpdateApi.swift in Sources */,
+				0AC38BD223E5DA4F00714CD7 /* McsConfigApi.swift in Sources */,
+				0AFC9C872419CFEB00A7AFC7 /* McsTextInputControllerSymptomWhen.swift in Sources */,
+				0A5C61E7229EA5C200978955 /* MPUpdatePasswordViewController.swift in Sources */,
+				0A6DB8A9240B929200951430 /* McsDoctorDetailApi.swift in Sources */,
+				0A7542F1212C4A5C0060A100 /* McsDatabase.swift in Sources */,
+				0A73B16821AAC1AB006A3F15 /* McsUtility.swift in Sources */,
+				0AD85A0F23CAE1A90052E8AC /* McsPatientSurgeryDeleteApi.swift in Sources */,
+				0AA8DEE42664C3A0004E03C4 /* McsMultilineTextField.swift in Sources */,
+				0AD858FB23CAE1A90052E8AC /* ApiDateExtention.swift in Sources */,
+				0A607AA323E048AC0057F620 /* MPCreateAccountViewController.swift in Sources */,
+				8ED7EE1423C861C4001E0A53 /* McsTextField.swift in Sources */,
+				0AD85A0323CAE1A90052E8AC /* McsPatientAllergyCreateApi.swift in Sources */,
+				8ED7EE2023C861C4001E0A53 /* McsTextInputControllerDefault.swift in Sources */,
+				0A754325212C4A5C0060A100 /* MPBookingHealthViewController.swift in Sources */,
+				8E690304240FBD0B0063E678 /* MPConstant.swift in Sources */,
+				0AD8597523CAE1A90052E8AC /* McsAccountResetPasswordApi.swift in Sources */,
+				0ADDD29623D2268300B76668 /* McsFormViewController.swift in Sources */,
+				0A08343423F6F261002155D9 /* MPSurgeryViewController.swift in Sources */,
+				0A36AF1B21B76D9300EFE956 /* UIImageView_Extension.swift in Sources */,
+				0A37024323D41B26005F89A6 /* McsTextInputControllerEmailPhone.swift in Sources */,
+				0AD8596323CAE1A90052E8AC /* McsClinicCert.swift in Sources */,
+				0A9A1C8B23D3527E004BC069 /* McsEnum.swift in Sources */,
+				0AD859F323CAE1A90052E8AC /* McsPatientCancelAppointmentApi.swift in Sources */,
+				0AD8598B23CAE1A90052E8AC /* McsAccountDeviceSetApi.swift in Sources */,
+				0AC45E1E23F0565600E182A0 /* McsRequestFormApi.swift in Sources */,
+				0A47096B23E86E85004FA37B /* ModelExtension.swift in Sources */,
+				0A9A1C7F23D34549004BC069 /* McsLog.swift in Sources */,
+				0AC38BD623E5EA4700714CD7 /* McsCity.swift in Sources */,
+				0AFD580D240413DE004DAE00 /* McsPartialUpdateApi.swift in Sources */,
+				0AD65C8A23DED01600772455 /* McsTextInputControllerCode.swift in Sources */,
+				0AC38BD823E5EA4700714CD7 /* McsState.swift in Sources */,
+				0AD859EF23CAE1A90052E8AC /* McsPatientAppointmentDetailApi.swift in Sources */,
+				0A5C61E4229EA5C200978955 /* MPRegisterViewController.swift in Sources */,
+				0A73B16521AAC1AB006A3F15 /* Date_Extension.swift in Sources */,
+				0AD8595F23CAE1A90052E8AC /* McsDoctorCert.swift in Sources */,
+				0A37024623D424CE005F89A6 /* String_PhoneExtension.swift in Sources */,
+				8ED7EE1D23C861C4001E0A53 /* McsTextInputControllerName.swift in Sources */,
+				0AD8591323CAE1A90052E8AC /* McsAccount.swift in Sources */,
+				8E886A2223ED4758007E3A0C /* UISegmentControl_Extension.swift in Sources */,
+				0A73B0B721AAC1AB006A3F15 /* McsConstant.swift in Sources */,
+				0A5C61E9229EA5C200978955 /* MPResetPasswordRequestViewController.swift in Sources */,
+				0A074B3123FF841E004A77F2 /* MPBookingPackageTypeViewController.swift in Sources */,
+				0A5C61EA229EA5C200978955 /* MPActivateViewController.swift in Sources */,
+				0A7C678A241F371100D74ADE /* McsSaveApi.swift in Sources */,
+				0AD8594323CAE1A90052E8AC /* McsSymptom.swift in Sources */,
+				0AD85A2723CAE1A90052E8AC /* McsAccountUpdatePasswordApi.swift in Sources */,
+				0A73B1D121AAC1AB006A3F15 /* McsViewController.swift in Sources */,
+				0AD85A1123CAE1A90052E8AC /* McsPatientSurgeryCreateApi.swift in Sources */,
+				0A08343723F6F58F002155D9 /* McsTextInputControllerMonthYear.swift in Sources */,
+				0A73B18021AAC1AB006A3F15 /* MPClinicCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A347AE625E8045400964345 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A347AE525E8045400964345 /* en */,
+				0A347AE725E8046600964345 /* vi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A347AEC25E804BE00964345 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A347AEB25E804BE00964345 /* en */,
+				0A347AED25E804C000964345 /* vi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A365A7920BF9CBC0005049A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE493EA1C1B8649CDE56D30B /* Pods-doctor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = doctor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 99J65Q2669;
+				INFOPLIST_FILE = "$(SRCROOT)/mcs/Doctor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud273.doctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A365A7A20BF9CBC0005049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6021B88AE58DA1ADB333913C /* Pods-doctor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = doctor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 99J65Q2669;
+				INFOPLIST_FILE = "$(SRCROOT)/mcs/Doctor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud273.doctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A409FC820AD84A3005E7799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A409FC920AD84A3005E7799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A409FCB20AD84A3005E7799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF28E136A3EF6602D744D18F /* Pods-patient.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = patient.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 99J65Q2669;
+				INFOPLIST_FILE = "$(SRCROOT)/mcs/Patient/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud273.patient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0A409FCC20AD84A3005E7799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D7093DBBB9B5110E2C2B8A /* Pods-patient.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = patient.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 99J65Q2669;
+				INFOPLIST_FILE = "$(SRCROOT)/mcs/Patient/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DRELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloud273.patient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A365A7820BF9CBC0005049A /* Build configuration list for PBXNativeTarget "doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A365A7920BF9CBC0005049A /* Debug */,
+				0A365A7A20BF9CBC0005049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A409FB320AD8499005E7799 /* Build configuration list for PBXProject "mcs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A409FC820AD84A3005E7799 /* Debug */,
+				0A409FC920AD84A3005E7799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A409FCA20AD84A3005E7799 /* Build configuration list for PBXNativeTarget "patient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A409FCB20AD84A3005E7799 /* Debug */,
+				0A409FCC20AD84A3005E7799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A409FB020AD8499005E7799 /* Project object */;
+}

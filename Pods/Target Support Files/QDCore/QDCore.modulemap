@@ -1,0 +1,6 @@
+framework module QDCore {
+  umbrella header "QDCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

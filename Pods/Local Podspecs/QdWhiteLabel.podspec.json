@@ -1,0 +1,25 @@
+{
+  "name": "QDWhiteLabel",
+  "version": "1.0.0",
+  "summary": "QDWhiteLabel framework",
+  "description": "This framework is designed for white label app",
+  "homepage": "http://cloud273.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "DUNG NGUYEN",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "path": "source"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1"
+  ],
+  "source_files": "source/*.swift",
+  "frameworks": "UIKit",
+  "swift_version": "5.1"
+}

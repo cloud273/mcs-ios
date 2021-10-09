@@ -1,0 +1,6 @@
+framework module QDWhiteLabel {
+  umbrella header "QDWhiteLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
