@@ -6,7 +6,7 @@
 
 import UIKit
 
-let HostUrl = "https://mcs.cloud273.com"
-let ApiUrl = "\(HostUrl)/app/api"
-let ImageUrl = "\(HostUrl)/app/image"
-let ResourceUrl = "\(HostUrl)/app/resource"
+let HostUrl = "https://mcs.cloud273.com/app"
+let ApiUrl = "\(HostUrl)/api"
+let ImageUrl = "\(HostUrl)/image"
+let ResourceUrl = "\(HostUrl)/resource"

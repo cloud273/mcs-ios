@@ -6,7 +6,7 @@
 
 import UIKit
 
-let AboutUsUrl = "\(HostUrl)/mcs/support/doctor/about.html"
-let FaqUrl = "\(HostUrl)/mcs/support/doctor/faq.html"
-let TermUrl = "\(HostUrl)/mcs/support/doctor/termcondition.html"
-let ContactUrl = "\(HostUrl)/mcs/support/doctor/contact.html"
+let AboutUsUrl = "\(HostUrl)/support/doctor/about.html"
+let FaqUrl = "\(HostUrl)/support/doctor/faq.html"
+let TermUrl = "\(HostUrl)/support/doctor/termcondition.html"
+let ContactUrl = "\(HostUrl)/support/doctor/contact.html"
