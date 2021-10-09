@@ -8,5 +8,5 @@ import UIKit
 
 let AboutUsUrl = "\(HostUrl)/support/patient/about.html"
 let FaqUrl = "\(HostUrl)/support/patient/faq.html"
-let TermUrl = "\(HostUrl)/support/patient/termcondition.html"
+let TermUrl = "\(HostUrl)/support/patient/term_condition.html"
 let ContactUrl = "\(HostUrl)/support/patient/contact.html"
