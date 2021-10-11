@@ -198,13 +198,13 @@ extension McsAptStatusType {
             result = "Rejected_status".localized
             break
         case .cancelled:
-            result = "Cancelled".localized
+            result = "Cancelled_status".localized
             break
         case .started:
-            result = "In_progress".localized
+            result = "Started_status".localized
             break
         default:
-            result = "Finished".localized
+            result = "Finished_status".localized
         }
         return result
     }
