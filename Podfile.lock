@@ -1,10 +1,10 @@
 PODS:
-  - Alamofire (5.4.3)
+  - Alamofire (5.5.0)
   - CLLocalization (1.0.1)
   - Cosmos (23.0.0)
   - FSCalendar (2.8.2)
-  - IQKeyboardManagerSwift (6.5.6)
-  - Kingfisher (6.3.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - Kingfisher (7.1.2)
   - MaterialComponents (122.0.1):
     - MaterialComponents/ActionSheet (= 122.0.1)
     - "MaterialComponents/ActionSheet+Theming (= 122.0.1)"
@@ -694,12 +694,12 @@ EXTERNAL SOURCES:
     :path: library/ios-whiteLabel
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   CLLocalization: 2e0c4c4b06bfc7f76f561a992a7dd89c0de070fd
   Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
-  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
-  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
   MaterialComponents: bdbe76d0fad6669ebd581267bb42b758c9c95138
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
