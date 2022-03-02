@@ -6,7 +6,7 @@ def common
   pod 'QDCore', :path => 'library/ios-core'
   pod 'CLLocalization'
   pod 'QDWhiteLabel', :path => 'library/ios-whiteLabel'
-  pod 'MaterialComponents', '~> 122.0.1'
+  pod 'MaterialComponents'
   pod 'PhoneNumberKit'
   pod 'ObjectMapper'
   pod 'ProgressHUD'

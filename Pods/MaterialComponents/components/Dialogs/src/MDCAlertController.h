@@ -400,14 +400,18 @@ typedef NS_ENUM(NSInteger, MDCContentHorizontalAlignment) {
 
  Defaults to UIKit's supportedInterfaceOrientations.
 */
-@property(nonatomic) UIInterfaceOrientationMask supportedInterfaceOrientationsOverride;
+@property(nonatomic)
+    UIInterfaceOrientationMask supportedInterfaceOrientationsOverride API_UNAVAILABLE(tvos, watchos)
+        ;
 
 /**
  The interface orientation to use when presenting the alert.
 
  Defaults to UIKit's preferredInterfaceOrientationForPresentation.
 */
-@property(nonatomic) UIInterfaceOrientation preferredInterfaceOrientationForPresentationOverride;
+@property(nonatomic)
+    UIInterfaceOrientation preferredInterfaceOrientationForPresentationOverride API_UNAVAILABLE(
+        tvos, watchos);
 
 /**
  The transition style to use when presenting the view controller override.
@@ -444,7 +448,8 @@ typedef void (^MDCActionHandler)(MDCAlertAction *_Nonnull action);
  bottom of an alert controller.
 
  @param title The title of the button shown on the alert dialog.
- @param handler A block to execute when the user selects the action.
+ @param handler A block to execute when the user selects the action. This is called any
+        time the action is selected, even if @c dismissOnAction is @c NO.
  @return An initialized @c MDCActionAlert object.
  */
 + (nonnull instancetype)actionWithTitle:(nonnull NSString *)title
@@ -457,7 +462,8 @@ typedef void (^MDCActionHandler)(MDCAlertAction *_Nonnull action);
  @param emphasis The emphasis of the button that will be rendered in the alert dialog.
         Unthemed actions will render all emphases as text. Apply themers to the alert
         to achieve different appearance for different emphases.
- @param handler A block to execute when the user selects the action.
+ @param handler A block to execute when the user selects the action. This is called any
+        time the action is selected, even if @c dismissOnAction is @c NO.
  @return An initialized @c MDCActionAlert object.
  */
 + (nonnull instancetype)actionWithTitle:(nonnull NSString *)title
@@ -483,5 +489,26 @@ typedef void (^MDCActionHandler)(MDCAlertAction *_Nonnull action);
  The @c accessibilityIdentifier for the view associated with this action.
  */
 @property(nonatomic, nullable, copy) NSString *accessibilityIdentifier;
+
+/**
+ Whether actions dismiss the dialog on action selection or persist the dialog after a selection has
+ been made. If this is set to @c NO, then it is up to the presenting class to dismiss the
+ controller. Callers may dismiss the controller by calling dismissViewControllerAnimated:completion:
+ on the presenting view controller. Ex:
+
+ __weak MDCAlertController *weakAlertController = alertController;
+ MDCAlertAction *action = [MDCAlertAction actionWithTitle:@"Title" handler:^{
+   MDCAlertController *strongAlertController = weakAlertController;
+   if (strongAlertController) {
+     [strongAlertController.presentingViewController dismissViewControllerAnimated:YES
+ completion:nil];
+   }
+ }];
+ action.dismissOnAction = NO;
+ [alertController addAction:action];
+
+ Defaults to @c YES meaning that when an action is performed, it also dismisses the dialog.
+ */
+@property(nonatomic, assign) BOOL dismissOnAction;
 
 @end
