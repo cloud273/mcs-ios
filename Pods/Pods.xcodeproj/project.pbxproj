@@ -9049,7 +9049,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9085,7 +9085,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9112,7 +9112,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_feedback-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_feedback;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9136,7 +9136,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9163,7 +9163,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_color_lens-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_color_lens;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9179,7 +9179,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_help_outline-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_help_outline;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9195,7 +9195,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check_circle-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_check_circle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9220,7 +9220,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9254,7 +9254,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimator/MotionAnimator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MotionAnimator/MotionAnimator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9280,7 +9280,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_chevron_right;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9370,7 +9370,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9396,7 +9396,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_reorder-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_reorder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9420,7 +9420,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimator/MotionAnimator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MotionAnimator/MotionAnimator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9447,7 +9447,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_settings-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_settings;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9472,7 +9472,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9498,7 +9498,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_radio_button_unchecked-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_radio_button_unchecked;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9514,7 +9514,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_check;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9538,7 +9538,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MDFTextAccessibility/MDFTextAccessibility-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MDFTextAccessibility/MDFTextAccessibility-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9564,7 +9564,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_check;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9588,7 +9588,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CLLocalization/CLLocalization-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CLLocalization/CLLocalization-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9684,7 +9684,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9717,7 +9717,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CLLocalization/CLLocalization-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CLLocalization/CLLocalization-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9744,7 +9744,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_arrow_back;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9768,7 +9768,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9838,7 +9838,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ObjectMapper/ObjectMapper-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9872,7 +9872,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9898,7 +9898,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_reorder-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_reorder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -9922,7 +9922,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9948,7 +9948,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_info-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_info;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10008,7 +10008,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10154,7 +10154,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10180,7 +10180,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check_circle-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_check_circle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10204,7 +10204,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10239,7 +10239,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MDFTextAccessibility/MDFTextAccessibility-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MDFTextAccessibility/MDFTextAccessibility-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10266,7 +10266,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_help_outline-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_help_outline;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10282,7 +10282,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_more_horiz;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10306,7 +10306,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ObjectMapper/ObjectMapper-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10333,7 +10333,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_info-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_info;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10422,7 +10422,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_settings-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_settings;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10482,7 +10482,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10509,7 +10509,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_radio_button_unchecked-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_radio_button_unchecked;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10525,7 +10525,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_feedback-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_feedback;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10549,7 +10549,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MotionInterchange/MotionInterchange-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MotionInterchange/MotionInterchange-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10584,7 +10584,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10610,7 +10610,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_chevron_right;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10635,7 +10635,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10662,7 +10662,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_color_lens-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_color_lens;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10686,7 +10686,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MotionInterchange/MotionInterchange-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MotionInterchange/MotionInterchange-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10713,7 +10713,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_more_horiz;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -10729,7 +10729,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_arrow_back;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
