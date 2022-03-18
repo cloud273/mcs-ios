@@ -4,7 +4,7 @@ PODS:
   - Cosmos (23.0.0)
   - FSCalendar (2.8.2)
   - IQKeyboardManagerSwift (6.5.9)
-  - Kingfisher (7.1.2)
+  - Kingfisher (7.2.0)
   - MaterialComponents (124.2.0):
     - MaterialComponents/ActionSheet (= 124.2.0)
     - "MaterialComponents/ActionSheet+Theming (= 124.2.0)"
@@ -651,11 +651,11 @@ PODS:
     - MotionInterchange (~> 3.0)
   - MotionInterchange (3.0.0)
   - ObjectMapper (4.2.0)
-  - PhoneNumberKit (3.3.3):
-    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.3)
-    - PhoneNumberKit/UIKit (= 3.3.3)
-  - PhoneNumberKit/PhoneNumberKitCore (3.3.3)
-  - PhoneNumberKit/UIKit (3.3.3):
+  - PhoneNumberKit (3.3.4):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.4)
+    - PhoneNumberKit/UIKit (= 3.3.4)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.4)
+  - PhoneNumberKit/UIKit (3.3.4):
     - PhoneNumberKit/PhoneNumberKitCore
   - ProgressHUD (2.70)
   - QDCore (1.0.0):
@@ -704,14 +704,14 @@ SPEC CHECKSUMS:
   Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
-  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
   MotionAnimator: 5f99d7c9592928c0f28a66283eda9c3b657dc480
   MotionInterchange: 13adae439b377e31d1674cc165539d50e1d1566a
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
-  PhoneNumberKit: 4ce83273551c4d2ae10b7361162f4283dd02835f
+  PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
   ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
   QDCore: e310d387775d583c86bf34bd04de4879f827c0e5
   QDWhiteLabel: 0e357cba2b8d8be76d4d5d1a92e99ef224d8187a
