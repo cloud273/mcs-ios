@@ -1,33 +1,11 @@
-# TESTFLIGHT
+# Content
 
-1. PATIENT APP: https://testflight.apple.com/join/65qySFEb
-
-2. DOCTOR APP: https://testflight.apple.com/join/Gs69j8P5
-
-# REMAIN
-
-1. PATIENT APP
-
-    + Show prescription
-    
-    + Prevent multi-booing on a day, on a doctor
-
-    + Design and apply new design
-
-    + Re-check everything before release
-    
-
-2. DOCTOR APP
-
-    + Create custom schedule on a day
-
-    + Prescription 
-
-# IMPROVEMENT 
+- This repository includes coding for both Patient and Doctor application
+- Patient can install app via https://testflight.apple.com/join/65qySFEb
+- Doctor can install app via https://testflight.apple.com/join/Gs69j8P5
 
 
-
-# NOTE
+# Development
 
 1. Git
 
