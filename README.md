@@ -1,9 +1,24 @@
 # Content
 
 - This repository includes coding for both Patient and Doctor application
+
 - Patient can install app via https://testflight.apple.com/join/65qySFEb
+
 - Doctor can install app via https://testflight.apple.com/join/Gs69j8P5
 
+# Patient app
+
+1. Account: Patient have his/her account, so he/she can follow his/her appointment and result
+    - Create account using email
+    - Update patient profile (name, date of birth, address, image ...)
+    
+2. Health information: Patient can input his/her health information so that he/she can send it to doctor when doing an appointment. This includes:
+    - Create/update patient allergy information
+    - Create/update patient surgery information
+    - Update patient medication information (High blood pressure?, High cholesterol?, Pregnant?)
+    
+3. Booking an appointment
+    - 
 
 # Development
 
