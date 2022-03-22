@@ -8,17 +8,23 @@
 
 # Patient app
 
-1. Account: Patient have his/her account, so he/she can follow his/her appointment and result
+1. Account: Every patient has've got an account, so they can manage their profile, health information, appointment and result
     - Create account using email
     - Update patient profile (name, date of birth, address, image ...)
     
-2. Health information: Patient can input his/her health information so that he/she can send it to doctor when doing an appointment. This includes:
-    - Create/update patient allergy information
-    - Create/update patient surgery information
-    - Update patient medication information (High blood pressure?, High cholesterol?, Pregnant?)
+2. Health information: Patient can update their health information so that they can share them to doctor when create an booking. This includes:
+    - Create/update patient's allergy information
+    - Create/update patient's surgery information
+    - Update patient's medication information (High blood pressure?, High cholesterol?, Pregnant?)
     
-3. Booking an appointment
-    - 
+3. Booking an appointment: Patient can choose doctor and create an appointment with him/her
+    - Select specialty
+    - Search for doctor
+    - Get booking fee
+    - Select booking time
+    - Cancel a booking
+    
+4. History of appointments
 
 # Development
 
