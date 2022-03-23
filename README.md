@@ -2,9 +2,9 @@
 
 - This repository includes coding for both Patient and Doctor application
 
-- Patient can install app via https://testflight.apple.com/join/65qySFEb
+- Patient can install demo app via https://testflight.apple.com/join/65qySFEb
 
-- Doctor can install app via https://testflight.apple.com/join/Gs69j8P5
+- Doctor can install demo app via https://testflight.apple.com/join/Gs69j8P5
 
 
 # Patient app
