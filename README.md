@@ -72,25 +72,7 @@
 
 1. Git
 
-    + `git clone --recurse-submodules https://cloud273.com:8027/mcs/ios.git`
-    + `git pull --recurse-submodules`
-    
-2. Submodule
-
-    + Add:  `git submodule add https://cloud273.com:8027/library/ios-core.git`
-    + Add:  `git submodule add https://cloud273.com:8027/library/ios-localization.git`
-    + Add:  `git submodule add https://cloud273.com:8027/library/ios-whiteLabel.git`
-    
-    +  Remove: 
-        - `git submodule deinit <path_to_submodule>`
-        - `git rm <path_to_submodule>`
-        - `git commit-m "Removed submodule "`
-        - `rm -rf .git/modules/<path_to_submodule>`
-
-    + Update
-        - `git pull origin HEAD:master`
-        - `git push origin HEAD:master`
-
+    + `git clone https://github.com/cloud273/mcs-ios.git`
 
 2. Convert p12 to pem to read information
 
