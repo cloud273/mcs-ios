@@ -70,11 +70,7 @@
 
 # Development
 
-1. Git
-
-    + `git clone https://github.com/cloud273/mcs-ios.git`
-
-2. Convert p12 to pem to read information
+1. Convert p12 to pem to read information
 
     + `openssl pkcs12 -in doctor.p12 -out doctor.pem -nodes -clcerts`
     + `openssl pkcs12 -in patient.p12 -out patient.pem -nodes -clcerts`
