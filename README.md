@@ -1,6 +1,6 @@
 # Content
 
-- This repository includes coding for both Patient and Doctor application
+- This repository includes coding for both Patient and Doctor IOS application
 
 - Patient can install demo app via https://testflight.apple.com/join/65qySFEb
 
