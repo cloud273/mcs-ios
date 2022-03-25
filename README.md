@@ -60,7 +60,9 @@
 - Clinic admin will using web (http://mcs.cloud273.com) to login and manage appointment and other information
 - Clinic admin will register schedule for doctor via web admin
 - When patient create appointment, it must be verified by clinic admin before doctor can get it.
-
+- Account information
+    + Patient: create in app
+    + Doctor: doctora0@mailinator.com/111111
 
 # Todo
 
