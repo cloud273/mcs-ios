@@ -39,7 +39,7 @@
     - Update and forgot password
 
 2. Appointment
-    - List of all upcomming appointments
+    - List of all upcoming appointments
     - List of today appointment
     - Show all patient information/ symptom/ medication / allergy/ surgery that patient shared in appointment
     - Begin/ Finish an appointment
