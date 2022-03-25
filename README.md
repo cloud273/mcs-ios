@@ -47,7 +47,7 @@
     
 3. History of appointments
     - List of appointment in a month
-    - Detail of an old appointment
+    - Detail of an appointment
     
 4. More information
     - Schedule of doctor
@@ -66,7 +66,7 @@
 
 # Todo
 
-- Telemedicine and presciption
+- Telemedicine and prescription
 - Summary for doctor
 
 
